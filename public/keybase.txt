@@ -1,0 +1,53 @@
+https://keybase.io/moox
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://moox.io
+  * I am moox (https://keybase.io/moox) on keybase.
+  * I have a public key ASAV63S6LCHJ5ZeJSVQnOSDG1ABsuZgI0Ek_A9eyHqo-hAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01010bb9a0dc25509aa8db6f73a724c0e7d2d9ce28d5a072002f9ab6b38f0223d2a70a",
+      "host": "keybase.io",
+      "kid": "012015eb74ba2c21c9e597894954273920c6d4006cb99808d0493f03d7b21eaa3e840a",
+      "uid": "75b1f1db849759e51b6ea773b014ad00",
+      "username": "moox"
+    },
+    "merkle_root": {
+      "ctime": 1568131306,
+      "hash": "f9deebc089d925b0d366cd42ee767ad547c26681cf7b95295afd5fb1514fdcde9867ce248b75016e8212548e1a5b30e3db2a627bd6f9ec113d07dd0cac364fd5",
+      "hash_meta": "38c23c6ac038548f8b6272e0fce3cebb45d3071daad722ee9052fab0c5a56ba0",
+      "seqno": 6452430
+    },
+    "service": {
+      "entropy": "Pc8cqeVBwcWmORgZTuxel0BA",
+      "hostname": "moox.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.1"
+  },
+  "ctime": 1568131319,
+  "expire_in": 504576000,
+  "prev": "aa3bb01926aee92c9c595df6c2e862f6cd10054b5d8f9e8b7e2f159f5f6c8036",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgFet0uiwhyeWXiUlUJzkgxtQAbLmYCNBJPwPXsh6qPoQKp3BheWxvYWTESpcCF8QgqjuwGSau6SycWV32wuhi9s0QBUtdj56Lfi8Vn19sgDbEIKcvSj/3R/2bUukq9xi/L5wgkv+Vxi/MB1PreQS4iR0kAgHCo3NpZ8RAl0JtULPvz8b2xdnc62pQwN+g70qHjfXkiar6IBKeFt225eDHM7TXL18Zg70pa0hwNVApa9KQPDpgMgXDGQOdD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJ+4skRX6+RO2MuWizF/bnHl5QYgS3XzM/u5ZvQWvCfFo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/moox
