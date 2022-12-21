@@ -424,8 +424,8 @@ function WebsiteFooter(Props) {
                                 theme.styles.textOnMain
                               ]
                             })), React.createElement(TextLink.make, {
-                          children: "100% Over-engineered source available on GitHub",
-                          href: "https://github.com/MoOx/moox",
+                          children: "100% Over-engineered ",
+                          href: "https://github.com/",
                           style: [
                             Font.ios.footnote,
                             theme.styles.textOnMain
