@@ -14,6 +14,7 @@ hashtags:
   - Git
   - Lead
   - Webpack
+image: /resume/share.png
 remote: true
 ---
 
