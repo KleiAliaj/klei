@@ -27,7 +27,7 @@ let make = () => {
           {"Awaiting your message"->React.string}
         </Text>
         <Text style={array([Font.iosEm["largeTitle"], theme.styles["text"]])}>
-          {"Contact Maxime"->React.string}
+          {"Contact Klei"->React.string}
         </Text>
         <Spacer size=L />
         <Text style={array([Font.ios["body"], theme.styles["text"]])}>
