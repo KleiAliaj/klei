@@ -1,0 +1,36 @@
+####{BSB GENERATED: NO EDIT
+FLG -ppx "C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript\win32\bsc.exe -as-ppx -bs-jsx 3"
+S C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript\lib\ocaml
+B C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript\lib\ocaml
+FLG -w +a-4-9-20-40-41-42-50-61-102
+S C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@glennsl\bs-json\lib\ocaml
+B C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@glennsl\bs-json\lib\ocaml
+S C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@rescript-react-native\safe-area-context\lib\ocaml
+B C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@rescript-react-native\safe-area-context\lib\ocaml
+S C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@rescript-react-native\svg\lib\ocaml
+B C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@rescript-react-native\svg\lib\ocaml
+S C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@rescript\react\lib\ocaml
+B C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@rescript\react\lib\ocaml
+S C:\Users\kleia\OneDrive\Desktop\klei\node_modules\bs-webapi\lib\ocaml
+B C:\Users\kleia\OneDrive\Desktop\klei\node_modules\bs-webapi\lib\ocaml
+S C:\Users\kleia\OneDrive\Desktop\klei\node_modules\react-multiversal\lib\ocaml
+B C:\Users\kleia\OneDrive\Desktop\klei\node_modules\react-multiversal\lib\ocaml
+S C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript-next\lib\ocaml
+B C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript-next\lib\ocaml
+S C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript-react-native\lib\ocaml
+B C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript-react-native\lib\ocaml
+S C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript-tinycolor\lib\ocaml
+B C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript-tinycolor\lib\ocaml
+S assets\SVGs\components
+B lib\bs\assets\SVGs\components
+S src
+B lib\bs\src
+S src\pages
+B lib\bs\src\pages
+S src\pages\_\messages
+B lib\bs\src\pages\_\messages
+S src\components
+B lib\bs\src\components
+S src\components\shareable
+B lib\bs\src\components\shareable
+####BSB GENERATED: NO EDIT}

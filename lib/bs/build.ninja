@@ -1,0 +1,517 @@
+rescript = 1
+g_finger := C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@glennsl\bs-json\lib\ocaml\install.stamp
+g_finger := C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@rescript-react-native\safe-area-context\lib\ocaml\install.stamp
+g_finger := C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@rescript-react-native\svg\lib\ocaml\install.stamp
+g_finger := C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@rescript\react\lib\ocaml\install.stamp
+g_finger := C:\Users\kleia\OneDrive\Desktop\klei\node_modules\bs-webapi\lib\ocaml\install.stamp
+g_finger := C:\Users\kleia\OneDrive\Desktop\klei\node_modules\react-multiversal\lib\ocaml\install.stamp
+g_finger := C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript-next\lib\ocaml\install.stamp
+g_finger := C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript-react-native\lib\ocaml\install.stamp
+g_finger := C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript-tinycolor\lib\ocaml\install.stamp
+rule astj
+  command = "C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript\win32\bsc.exe"  -bs-v 9.1.2 -bs-jsx 3 -bs-super-errors -absname -bs-ast -o $out $i
+o assets\SVGs\components\SVGUi.ast : astj ..\..\assets\SVGs\components\SVGUi.res
+rule deps
+  command = "C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript\win32\bsb_helper.exe" -hash 782f21bf56f035e1fd0c1a03a77d18c6 $in
+  restat = 1
+o assets\SVGs\components\SVGUi.d : deps assets\SVGs\components\SVGUi.ast
+rule mij
+  command = "C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript\win32\bsc.exe" -I "src\components\shareable" -I "src\components" -I "src\pages\_\messages" -I "src\pages\_" -I "src\pages" -I src -I "assets\SVGs\components" -I "C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@glennsl\bs-json\lib\ocaml" -I "C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@rescript-react-native\safe-area-context\lib\ocaml" -I "C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@rescript-react-native\svg\lib\ocaml" -I "C:\Users\kleia\OneDrive\Desktop\klei\node_modules\@rescript\react\lib\ocaml" -I "C:\Users\kleia\OneDrive\Desktop\klei\node_modules\bs-webapi\lib\ocaml" -I "C:\Users\kleia\OneDrive\Desktop\klei\node_modules\react-multiversal\lib\ocaml" -I "C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript-next\lib\ocaml" -I "C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript-react-native\lib\ocaml" -I "C:\Users\kleia\OneDrive\Desktop\klei\node_modules\rescript-tinycolor\lib\ocaml" -bs-super-errors  -bs-package-name moox.io -bs-package-output es6:$in_d:.bs.js -bs-v $g_finger $i
+  dyndep = 1
+  restat = 1
+o assets\SVGs\components\SVGUi.cmj assets\SVGs\components\SVGUi.cmi ..\..\assets\SVGs\components\SVGUi.bs.js : mij assets\SVGs\components\SVGUi.ast
+o assets\SVGs\components\SVGApps.ast : astj ..\..\assets\SVGs\components\SVGApps.res
+o assets\SVGs\components\SVGApps.d : deps assets\SVGs\components\SVGApps.ast
+o assets\SVGs\components\SVGApps.cmj assets\SVGs\components\SVGApps.cmi ..\..\assets\SVGs\components\SVGApps.bs.js : mij assets\SVGs\components\SVGApps.ast
+o assets\SVGs\components\SVGCode.ast : astj ..\..\assets\SVGs\components\SVGCode.res
+o assets\SVGs\components\SVGCode.d : deps assets\SVGs\components\SVGCode.ast
+o assets\SVGs\components\SVGCode.cmj assets\SVGs\components\SVGCode.cmi ..\..\assets\SVGs\components\SVGCode.bs.js : mij assets\SVGs\components\SVGCode.ast
+o assets\SVGs\components\SVGFlow.ast : astj ..\..\assets\SVGs\components\SVGFlow.res
+o assets\SVGs\components\SVGFlow.d : deps assets\SVGs\components\SVGFlow.ast
+o assets\SVGs\components\SVGFlow.cmj assets\SVGs\components\SVGFlow.cmi ..\..\assets\SVGs\components\SVGFlow.bs.js : mij assets\SVGs\components\SVGFlow.ast
+o assets\SVGs\components\SVGJest.ast : astj ..\..\assets\SVGs\components\SVGJest.res
+o assets\SVGs\components\SVGJest.d : deps assets\SVGs\components\SVGJest.ast
+o assets\SVGs\components\SVGJest.cmj assets\SVGs\components\SVGJest.cmi ..\..\assets\SVGs\components\SVGJest.bs.js : mij assets\SVGs\components\SVGJest.ast
+o assets\SVGs\components\SVGLogo.ast : astj ..\..\assets\SVGs\components\SVGLogo.res
+o assets\SVGs\components\SVGLogo.d : deps assets\SVGs\components\SVGLogo.ast
+o assets\SVGs\components\SVGLogo.cmj assets\SVGs\components\SVGLogo.cmi ..\..\assets\SVGs\components\SVGLogo.bs.js : mij assets\SVGs\components\SVGLogo.ast
+o assets\SVGs\components\SVGEmail.ast : astj ..\..\assets\SVGs\components\SVGEmail.res
+o assets\SVGs\components\SVGEmail.d : deps assets\SVGs\components\SVGEmail.ast
+o assets\SVGs\components\SVGEmail.cmj assets\SVGs\components\SVGEmail.cmi ..\..\assets\SVGs\components\SVGEmail.bs.js : mij assets\SVGs\components\SVGEmail.ast
+o assets\SVGs\components\SVGOsIos.ast : astj ..\..\assets\SVGs\components\SVGOsIos.res
+o assets\SVGs\components\SVGOsIos.d : deps assets\SVGs\components\SVGOsIos.ast
+o assets\SVGs\components\SVGOsIos.cmj assets\SVGs\components\SVGOsIos.cmi ..\..\assets\SVGs\components\SVGOsIos.bs.js : mij assets\SVGs\components\SVGOsIos.ast
+o assets\SVGs\components\SVGPhone.ast : astj ..\..\assets\SVGs\components\SVGPhone.res
+o assets\SVGs\components\SVGPhone.d : deps assets\SVGs\components\SVGPhone.ast
+o assets\SVGs\components\SVGPhone.cmj assets\SVGs\components\SVGPhone.cmi ..\..\assets\SVGs\components\SVGPhone.bs.js : mij assets\SVGs\components\SVGPhone.ast
+o assets\SVGs\components\SVGReact.ast : astj ..\..\assets\SVGs\components\SVGReact.res
+o assets\SVGs\components\SVGReact.d : deps assets\SVGs\components\SVGReact.ast
+o assets\SVGs\components\SVGReact.cmj assets\SVGs\components\SVGReact.cmi ..\..\assets\SVGs\components\SVGReact.bs.js : mij assets\SVGs\components\SVGReact.ast
+o assets\SVGs\components\SVGReply.ast : astj ..\..\assets\SVGs\components\SVGReply.res
+o assets\SVGs\components\SVGReply.d : deps assets\SVGs\components\SVGReply.ast
+o assets\SVGs\components\SVGReply.cmj assets\SVGs\components\SVGReply.cmi ..\..\assets\SVGs\components\SVGReply.bs.js : mij assets\SVGs\components\SVGReply.ast
+o assets\SVGs\components\SVGTouch.ast : astj ..\..\assets\SVGs\components\SVGTouch.res
+o assets\SVGs\components\SVGTouch.d : deps assets\SVGs\components\SVGTouch.ast
+o assets\SVGs\components\SVGTouch.cmj assets\SVGs\components\SVGTouch.cmi ..\..\assets\SVGs\components\SVGTouch.bs.js : mij assets\SVGs\components\SVGTouch.ast
+o assets\SVGs\components\SVGApollo.ast : astj ..\..\assets\SVGs\components\SVGApollo.res
+o assets\SVGs\components\SVGApollo.d : deps assets\SVGs\components\SVGApollo.ast
+o assets\SVGs\components\SVGApollo.cmj assets\SVGs\components\SVGApollo.cmi ..\..\assets\SVGs\components\SVGApollo.bs.js : mij assets\SVGs\components\SVGApollo.ast
+o assets\SVGs\components\SVGDevCss.ast : astj ..\..\assets\SVGs\components\SVGDevCss.res
+o assets\SVGs\components\SVGDevCss.d : deps assets\SVGs\components\SVGDevCss.ast
+o assets\SVGs\components\SVGDevCss.cmj assets\SVGs\components\SVGDevCss.cmi ..\..\assets\SVGs\components\SVGDevCss.bs.js : mij assets\SVGs\components\SVGDevCss.ast
+o assets\SVGs\components\SVGDevPhp.ast : astj ..\..\assets\SVGs\components\SVGDevPhp.res
+o assets\SVGs\components\SVGDevPhp.d : deps assets\SVGs\components\SVGDevPhp.ast
+o assets\SVGs\components\SVGDevPhp.cmj assets\SVGs\components\SVGDevPhp.cmi ..\..\assets\SVGs\components\SVGDevPhp.bs.js : mij assets\SVGs\components\SVGDevPhp.ast
+o assets\SVGs\components\SVGSketch.ast : astj ..\..\assets\SVGs\components\SVGSketch.res
+o assets\SVGs\components\SVGSketch.d : deps assets\SVGs\components\SVGSketch.ast
+o assets\SVGs\components\SVGSketch.cmj assets\SVGs\components\SVGSketch.cmi ..\..\assets\SVGs\components\SVGSketch.bs.js : mij assets\SVGs\components\SVGSketch.ast
+o assets\SVGs\components\SVGContact.ast : astj ..\..\assets\SVGs\components\SVGContact.res
+o assets\SVGs\components\SVGContact.d : deps assets\SVGs\components\SVGContact.ast
+o assets\SVGs\components\SVGContact.cmj assets\SVGs\components\SVGContact.cmi ..\..\assets\SVGs\components\SVGContact.bs.js : mij assets\SVGs\components\SVGContact.ast
+o assets\SVGs\components\SVGDevHtml.ast : astj ..\..\assets\SVGs\components\SVGDevHtml.res
+o assets\SVGs\components\SVGDevHtml.d : deps assets\SVGs\components\SVGDevHtml.ast
+o assets\SVGs\components\SVGDevHtml.cmj assets\SVGs\components\SVGDevHtml.cmi ..\..\assets\SVGs\components\SVGDevHtml.bs.js : mij assets\SVGs\components\SVGDevHtml.ast
+o assets\SVGs\components\SVGDevices.ast : astj ..\..\assets\SVGs\components\SVGDevices.res
+o assets\SVGs\components\SVGDevices.d : deps assets\SVGs\components\SVGDevices.ast
+o assets\SVGs\components\SVGDevices.cmj assets\SVGs\components\SVGDevices.cmi ..\..\assets\SVGs\components\SVGDevices.bs.js : mij assets\SVGs\components\SVGDevices.ast
+o assets\SVGs\components\SVGGraphql.ast : astj ..\..\assets\SVGs\components\SVGGraphql.res
+o assets\SVGs\components\SVGGraphql.d : deps assets\SVGs\components\SVGGraphql.ast
+o assets\SVGs\components\SVGGraphql.cmj assets\SVGs\components\SVGGraphql.cmi ..\..\assets\SVGs\components\SVGGraphql.bs.js : mij assets\SVGs\components\SVGGraphql.ast
+o assets\SVGs\components\SVGRssFeed.ast : astj ..\..\assets\SVGs\components\SVGRssFeed.res
+o assets\SVGs\components\SVGRssFeed.d : deps assets\SVGs\components\SVGRssFeed.ast
+o assets\SVGs\components\SVGRssFeed.cmj assets\SVGs\components\SVGRssFeed.cmi ..\..\assets\SVGs\components\SVGRssFeed.bs.js : mij assets\SVGs\components\SVGRssFeed.ast
+o assets\SVGs\components\SVGWebpack.ast : astj ..\..\assets\SVGs\components\SVGWebpack.res
+o assets\SVGs\components\SVGWebpack.d : deps assets\SVGs\components\SVGWebpack.ast
+o assets\SVGs\components\SVGWebpack.cmj assets\SVGs\components\SVGWebpack.cmi ..\..\assets\SVGs\components\SVGWebpack.bs.js : mij assets\SVGs\components\SVGWebpack.ast
+o assets\SVGs\components\SVGAppStore.ast : astj ..\..\assets\SVGs\components\SVGAppStore.res
+o assets\SVGs\components\SVGAppStore.d : deps assets\SVGs\components\SVGAppStore.ast
+o assets\SVGs\components\SVGAppStore.cmj assets\SVGs\components\SVGAppStore.cmi ..\..\assets\SVGs\components\SVGAppStore.bs.js : mij assets\SVGs\components\SVGAppStore.ast
+o assets\SVGs\components\SVGMarkdown.ast : astj ..\..\assets\SVGs\components\SVGMarkdown.res
+o assets\SVGs\components\SVGMarkdown.d : deps assets\SVGs\components\SVGMarkdown.ast
+o assets\SVGs\components\SVGMarkdown.cmj assets\SVGs\components\SVGMarkdown.cmi ..\..\assets\SVGs\components\SVGMarkdown.bs.js : mij assets\SVGs\components\SVGMarkdown.ast
+o assets\SVGs\components\SVGMenuBlog.ast : astj ..\..\assets\SVGs\components\SVGMenuBlog.res
+o assets\SVGs\components\SVGMenuBlog.d : deps assets\SVGs\components\SVGMenuBlog.ast
+o assets\SVGs\components\SVGMenuBlog.cmj assets\SVGs\components\SVGMenuBlog.cmi ..\..\assets\SVGs\components\SVGMenuBlog.bs.js : mij assets\SVGs\components\SVGMenuBlog.ast
+o assets\SVGs\components\SVGMenuHome.ast : astj ..\..\assets\SVGs\components\SVGMenuHome.res
+o assets\SVGs\components\SVGMenuHome.d : deps assets\SVGs\components\SVGMenuHome.ast
+o assets\SVGs\components\SVGMenuHome.cmj assets\SVGs\components\SVGMenuHome.cmi ..\..\assets\SVGs\components\SVGMenuHome.bs.js : mij assets\SVGs\components\SVGMenuHome.ast
+o assets\SVGs\components\SVGMenuTalk.ast : astj ..\..\assets\SVGs\components\SVGMenuTalk.res
+o assets\SVGs\components\SVGMenuTalk.d : deps assets\SVGs\components\SVGMenuTalk.ast
+o assets\SVGs\components\SVGMenuTalk.cmj assets\SVGs\components\SVGMenuTalk.cmi ..\..\assets\SVGs\components\SVGMenuTalk.bs.js : mij assets\SVGs\components\SVGMenuTalk.ast
+o assets\SVGs\components\SVGTraining.ast : astj ..\..\assets\SVGs\components\SVGTraining.res
+o assets\SVGs\components\SVGTraining.d : deps assets\SVGs\components\SVGTraining.ast
+o assets\SVGs\components\SVGTraining.cmj assets\SVGs\components\SVGTraining.cmi ..\..\assets\SVGs\components\SVGTraining.bs.js : mij assets\SVGs\components\SVGTraining.ast
+o assets\SVGs\components\SVGOsAndroid.ast : astj ..\..\assets\SVGs\components\SVGOsAndroid.res
+o assets\SVGs\components\SVGOsAndroid.d : deps assets\SVGs\components\SVGOsAndroid.ast
+o assets\SVGs\components\SVGOsAndroid.cmj assets\SVGs\components\SVGOsAndroid.cmi ..\..\assets\SVGs\components\SVGOsAndroid.bs.js : mij assets\SVGs\components\SVGOsAndroid.ast
+o assets\SVGs\components\SVGOsWindows.ast : astj ..\..\assets\SVGs\components\SVGOsWindows.res
+o assets\SVGs\components\SVGOsWindows.d : deps assets\SVGs\components\SVGOsWindows.ast
+o assets\SVGs\components\SVGOsWindows.cmj assets\SVGs\components\SVGOsWindows.cmi ..\..\assets\SVGs\components\SVGOsWindows.bs.js : mij assets\SVGs\components\SVGOsWindows.ast
+o assets\SVGs\components\SVGPhotoshop.ast : astj ..\..\assets\SVGs\components\SVGPhotoshop.res
+o assets\SVGs\components\SVGPhotoshop.d : deps assets\SVGs\components\SVGPhotoshop.ast
+o assets\SVGs\components\SVGPhotoshop.cmj assets\SVGs\components\SVGPhotoshop.cmi ..\..\assets\SVGs\components\SVGPhotoshop.bs.js : mij assets\SVGs\components\SVGPhotoshop.ast
+o assets\SVGs\components\SVGDevPhpIcon.ast : astj ..\..\assets\SVGs\components\SVGDevPhpIcon.res
+o assets\SVGs\components\SVGDevPhpIcon.d : deps assets\SVGs\components\SVGDevPhpIcon.ast
+o assets\SVGs\components\SVGDevPhpIcon.cmj assets\SVGs\components\SVGDevPhpIcon.cmi ..\..\assets\SVGs\components\SVGDevPhpIcon.bs.js : mij assets\SVGs\components\SVGDevPhpIcon.ast
+o assets\SVGs\components\SVGJavaScript.ast : astj ..\..\assets\SVGs\components\SVGJavaScript.res
+o assets\SVGs\components\SVGJavaScript.d : deps assets\SVGs\components\SVGJavaScript.ast
+o assets\SVGs\components\SVGJavaScript.cmj assets\SVGs\components\SVGJavaScript.cmi ..\..\assets\SVGs\components\SVGJavaScript.bs.js : mij assets\SVGs\components\SVGJavaScript.ast
+o assets\SVGs\components\SVGMenuResume.ast : astj ..\..\assets\SVGs\components\SVGMenuResume.res
+o assets\SVGs\components\SVGMenuResume.d : deps assets\SVGs\components\SVGMenuResume.ast
+o assets\SVGs\components\SVGMenuResume.cmj assets\SVGs\components\SVGMenuResume.cmi ..\..\assets\SVGs\components\SVGMenuResume.bs.js : mij assets\SVGs\components\SVGMenuResume.ast
+o assets\SVGs\components\SVGMicrophone.ast : astj ..\..\assets\SVGs\components\SVGMicrophone.res
+o assets\SVGs\components\SVGMicrophone.d : deps assets\SVGs\components\SVGMicrophone.ast
+o assets\SVGs\components\SVGMicrophone.cmj assets\SVGs\components\SVGMicrophone.cmi ..\..\assets\SVGs\components\SVGMicrophone.bs.js : mij assets\SVGs\components\SVGMicrophone.ast
+o assets\SVGs\components\SVGActivityDiy.ast : astj ..\..\assets\SVGs\components\SVGActivityDiy.res
+o assets\SVGs\components\SVGActivityDiy.d : deps assets\SVGs\components\SVGActivityDiy.ast
+o assets\SVGs\components\SVGActivityDiy.cmj assets\SVGs\components\SVGActivityDiy.cmi ..\..\assets\SVGs\components\SVGActivityDiy.bs.js : mij assets\SVGs\components\SVGActivityDiy.ast
+o assets\SVGs\components\SVGActivitySki.ast : astj ..\..\assets\SVGs\components\SVGActivitySki.res
+o assets\SVGs\components\SVGActivitySki.d : deps assets\SVGs\components\SVGActivitySki.ast
+o assets\SVGs\components\SVGActivitySki.cmj assets\SVGs\components\SVGActivitySki.cmi ..\..\assets\SVGs\components\SVGActivitySki.bs.js : mij assets\SVGs\components\SVGActivitySki.ast
+o assets\SVGs\components\SVGAppStoreNpm.ast : astj ..\..\assets\SVGs\components\SVGAppStoreNpm.res
+o assets\SVGs\components\SVGAppStoreNpm.d : deps assets\SVGs\components\SVGAppStoreNpm.ast
+o assets\SVGs\components\SVGAppStoreNpm.cmj assets\SVGs\components\SVGAppStoreNpm.cmi ..\..\assets\SVGs\components\SVGAppStoreNpm.bs.js : mij assets\SVGs\components\SVGAppStoreNpm.ast
+o assets\SVGs\components\SVGBrowserEdge.ast : astj ..\..\assets\SVGs\components\SVGBrowserEdge.res
+o assets\SVGs\components\SVGBrowserEdge.d : deps assets\SVGs\components\SVGBrowserEdge.ast
+o assets\SVGs\components\SVGBrowserEdge.cmj assets\SVGs\components\SVGBrowserEdge.cmi ..\..\assets\SVGs\components\SVGBrowserEdge.bs.js : mij assets\SVGs\components\SVGBrowserEdge.ast
+o assets\SVGs\components\SVGCommandLine.ast : astj ..\..\assets\SVGs\components\SVGCommandLine.res
+o assets\SVGs\components\SVGCommandLine.d : deps assets\SVGs\components\SVGCommandLine.ast
+o assets\SVGs\components\SVGCommandLine.cmj assets\SVGs\components\SVGCommandLine.cmi ..\..\assets\SVGs\components\SVGCommandLine.bs.js : mij assets\SVGs\components\SVGCommandLine.ast
+o assets\SVGs\components\SVGDevRescript.ast : astj ..\..\assets\SVGs\components\SVGDevRescript.res
+o assets\SVGs\components\SVGDevRescript.d : deps assets\SVGs\components\SVGDevRescript.ast
+o assets\SVGs\components\SVGDevRescript.cmj assets\SVGs\components\SVGDevRescript.cmi ..\..\assets\SVGs\components\SVGDevRescript.bs.js : mij assets\SVGs\components\SVGDevRescript.ast
+o assets\SVGs\components\SVGMenuContact.ast : astj ..\..\assets\SVGs\components\SVGMenuContact.res
+o assets\SVGs\components\SVGMenuContact.d : deps assets\SVGs\components\SVGMenuContact.ast
+o assets\SVGs\components\SVGMenuContact.cmj assets\SVGs\components\SVGMenuContact.cmi ..\..\assets\SVGs\components\SVGMenuContact.bs.js : mij assets\SVGs\components\SVGMenuContact.ast
+o assets\SVGs\components\SVGActivityBike.ast : astj ..\..\assets\SVGs\components\SVGActivityBike.res
+o assets\SVGs\components\SVGActivityBike.d : deps assets\SVGs\components\SVGActivityBike.ast
+o assets\SVGs\components\SVGActivityBike.cmj assets\SVGs\components\SVGActivityBike.cmi ..\..\assets\SVGs\components\SVGActivityBike.bs.js : mij assets\SVGs\components\SVGActivityBike.ast
+o assets\SVGs\components\SVGChevronRight.ast : astj ..\..\assets\SVGs\components\SVGChevronRight.res
+o assets\SVGs\components\SVGChevronRight.d : deps assets\SVGs\components\SVGChevronRight.ast
+o assets\SVGs\components\SVGChevronRight.cmj assets\SVGs\components\SVGChevronRight.cmi ..\..\assets\SVGs\components\SVGChevronRight.bs.js : mij assets\SVGs\components\SVGChevronRight.ast
+o assets\SVGs\components\SVGDevPhotoshop.ast : astj ..\..\assets\SVGs\components\SVGDevPhotoshop.res
+o assets\SVGs\components\SVGDevPhotoshop.d : deps assets\SVGs\components\SVGDevPhotoshop.ast
+o assets\SVGs\components\SVGDevPhotoshop.cmj assets\SVGs\components\SVGDevPhotoshop.cmi ..\..\assets\SVGs\components\SVGDevPhotoshop.bs.js : mij assets\SVGs\components\SVGDevPhotoshop.ast
+o assets\SVGs\components\SVGDevWordpress.ast : astj ..\..\assets\SVGs\components\SVGDevWordpress.res
+o assets\SVGs\components\SVGDevWordpress.d : deps assets\SVGs\components\SVGDevWordpress.ast
+o assets\SVGs\components\SVGDevWordpress.cmj assets\SVGs\components\SVGDevWordpress.cmi ..\..\assets\SVGs\components\SVGDevWordpress.bs.js : mij assets\SVGs\components\SVGDevWordpress.ast
+o assets\SVGs\components\SVGDeviceIphone.ast : astj ..\..\assets\SVGs\components\SVGDeviceIphone.res
+o assets\SVGs\components\SVGDeviceIphone.d : deps assets\SVGs\components\SVGDeviceIphone.ast
+o assets\SVGs\components\SVGDeviceIphone.cmj assets\SVGs\components\SVGDeviceIphone.cmi ..\..\assets\SVGs\components\SVGDeviceIphone.bs.js : mij assets\SVGs\components\SVGDeviceIphone.ast
+o assets\SVGs\components\SVGExternalLink.ast : astj ..\..\assets\SVGs\components\SVGExternalLink.res
+o assets\SVGs\components\SVGExternalLink.d : deps assets\SVGs\components\SVGExternalLink.ast
+o assets\SVGs\components\SVGExternalLink.cmj assets\SVGs\components\SVGExternalLink.cmi ..\..\assets\SVGs\components\SVGExternalLink.bs.js : mij assets\SVGs\components\SVGExternalLink.ast
+o assets\SVGs\components\SVGPutaindecode.ast : astj ..\..\assets\SVGs\components\SVGPutaindecode.res
+o assets\SVGs\components\SVGPutaindecode.d : deps assets\SVGs\components\SVGPutaindecode.ast
+o assets\SVGs\components\SVGPutaindecode.cmj assets\SVGs\components\SVGPutaindecode.cmi ..\..\assets\SVGs\components\SVGPutaindecode.bs.js : mij assets\SVGs\components\SVGPutaindecode.ast
+o assets\SVGs\components\SVGSocialGithub.ast : astj ..\..\assets\SVGs\components\SVGSocialGithub.res
+o assets\SVGs\components\SVGSocialGithub.d : deps assets\SVGs\components\SVGSocialGithub.ast
+o assets\SVGs\components\SVGSocialGithub.cmj assets\SVGs\components\SVGSocialGithub.cmi ..\..\assets\SVGs\components\SVGSocialGithub.bs.js : mij assets\SVGs\components\SVGSocialGithub.ast
+o assets\SVGs\components\SVGSpeechBubble.ast : astj ..\..\assets\SVGs\components\SVGSpeechBubble.res
+o assets\SVGs\components\SVGSpeechBubble.d : deps assets\SVGs\components\SVGSpeechBubble.ast
+o assets\SVGs\components\SVGSpeechBubble.cmj assets\SVGs\components\SVGSpeechBubble.cmi ..\..\assets\SVGs\components\SVGSpeechBubble.bs.js : mij assets\SVGs\components\SVGSpeechBubble.ast
+o assets\SVGs\components\SVGAppStoreApple.ast : astj ..\..\assets\SVGs\components\SVGAppStoreApple.res
+o assets\SVGs\components\SVGAppStoreApple.d : deps assets\SVGs\components\SVGAppStoreApple.ast
+o assets\SVGs\components\SVGAppStoreApple.cmj assets\SVGs\components\SVGAppStoreApple.cmi ..\..\assets\SVGs\components\SVGAppStoreApple.bs.js : mij assets\SVGs\components\SVGAppStoreApple.ast
+o assets\SVGs\components\SVGBrowserChrome.ast : astj ..\..\assets\SVGs\components\SVGBrowserChrome.res
+o assets\SVGs\components\SVGBrowserChrome.d : deps assets\SVGs\components\SVGBrowserChrome.ast
+o assets\SVGs\components\SVGBrowserChrome.cmj assets\SVGs\components\SVGBrowserChrome.cmi ..\..\assets\SVGs\components\SVGBrowserChrome.bs.js : mij assets\SVGs\components\SVGBrowserChrome.ast
+o assets\SVGs\components\SVGBrowserSafari.ast : astj ..\..\assets\SVGs\components\SVGBrowserSafari.res
+o assets\SVGs\components\SVGBrowserSafari.d : deps assets\SVGs\components\SVGBrowserSafari.ast
+o assets\SVGs\components\SVGBrowserSafari.cmj assets\SVGs\components\SVGBrowserSafari.cmi ..\..\assets\SVGs\components\SVGBrowserSafari.bs.js : mij assets\SVGs\components\SVGBrowserSafari.ast
+o assets\SVGs\components\SVGCompanyAirbus.ast : astj ..\..\assets\SVGs\components\SVGCompanyAirbus.res
+o assets\SVGs\components\SVGCompanyAirbus.d : deps assets\SVGs\components\SVGCompanyAirbus.ast
+o assets\SVGs\components\SVGCompanyAirbus.cmj assets\SVGs\components\SVGCompanyAirbus.cmi ..\..\assets\SVGs\components\SVGCompanyAirbus.bs.js : mij assets\SVGs\components\SVGCompanyAirbus.ast
+o assets\SVGs\components\SVGCompanyGoogle.ast : astj ..\..\assets\SVGs\components\SVGCompanyGoogle.res
+o assets\SVGs\components\SVGCompanyGoogle.d : deps assets\SVGs\components\SVGCompanyGoogle.ast
+o assets\SVGs\components\SVGCompanyGoogle.cmj assets\SVGs\components\SVGCompanyGoogle.cmi ..\..\assets\SVGs\components\SVGCompanyGoogle.bs.js : mij assets\SVGs\components\SVGCompanyGoogle.ast
+o assets\SVGs\components\SVGDevJavascript.ast : astj ..\..\assets\SVGs\components\SVGDevJavascript.res
+o assets\SVGs\components\SVGDevJavascript.d : deps assets\SVGs\components\SVGDevJavascript.ast
+o assets\SVGs\components\SVGDevJavascript.cmj assets\SVGs\components\SVGDevJavascript.cmi ..\..\assets\SVGs\components\SVGDevJavascript.bs.js : mij assets\SVGs\components\SVGDevJavascript.ast
+o assets\SVGs\components\SVGDevTypescript.ast : astj ..\..\assets\SVGs\components\SVGDevTypescript.res
+o assets\SVGs\components\SVGDevTypescript.d : deps assets\SVGs\components\SVGDevTypescript.ast
+o assets\SVGs\components\SVGDevTypescript.cmj assets\SVGs\components\SVGDevTypescript.cmi ..\..\assets\SVGs\components\SVGDevTypescript.bs.js : mij assets\SVGs\components\SVGDevTypescript.ast
+o assets\SVGs\components\SVGSocialTwitter.ast : astj ..\..\assets\SVGs\components\SVGSocialTwitter.res
+o assets\SVGs\components\SVGSocialTwitter.d : deps assets\SVGs\components\SVGSocialTwitter.ast
+o assets\SVGs\components\SVGSocialTwitter.cmj assets\SVGs\components\SVGSocialTwitter.cmi ..\..\assets\SVGs\components\SVGSocialTwitter.bs.js : mij assets\SVGs\components\SVGSocialTwitter.ast
+o assets\SVGs\components\SVGSocialYoutube.ast : astj ..\..\assets\SVGs\components\SVGSocialYoutube.res
+o assets\SVGs\components\SVGSocialYoutube.d : deps assets\SVGs\components\SVGSocialYoutube.ast
+o assets\SVGs\components\SVGSocialYoutube.cmj assets\SVGs\components\SVGSocialYoutube.cmi ..\..\assets\SVGs\components\SVGSocialYoutube.bs.js : mij assets\SVGs\components\SVGSocialYoutube.ast
+o assets\SVGs\components\SVGSpeechBubbles.ast : astj ..\..\assets\SVGs\components\SVGSpeechBubbles.res
+o assets\SVGs\components\SVGSpeechBubbles.d : deps assets\SVGs\components\SVGSpeechBubbles.ast
+o assets\SVGs\components\SVGSpeechBubbles.cmj assets\SVGs\components\SVGSpeechBubbles.cmi ..\..\assets\SVGs\components\SVGSpeechBubbles.bs.js : mij assets\SVGs\components\SVGSpeechBubbles.ast
+o assets\SVGs\components\SVGActivitySoccer.ast : astj ..\..\assets\SVGs\components\SVGActivitySoccer.res
+o assets\SVGs\components\SVGActivitySoccer.d : deps assets\SVGs\components\SVGActivitySoccer.ast
+o assets\SVGs\components\SVGActivitySoccer.cmj assets\SVGs\components\SVGActivitySoccer.cmi ..\..\assets\SVGs\components\SVGActivitySoccer.bs.js : mij assets\SVGs\components\SVGActivitySoccer.ast
+o assets\SVGs\components\SVGAppStoreGoogle.ast : astj ..\..\assets\SVGs\components\SVGAppStoreGoogle.res
+o assets\SVGs\components\SVGAppStoreGoogle.d : deps assets\SVGs\components\SVGAppStoreGoogle.ast
+o assets\SVGs\components\SVGAppStoreGoogle.cmj assets\SVGs\components\SVGAppStoreGoogle.cmi ..\..\assets\SVGs\components\SVGAppStoreGoogle.bs.js : mij assets\SVGs\components\SVGAppStoreGoogle.ast
+o assets\SVGs\components\SVGCompanyTwitter.ast : astj ..\..\assets\SVGs\components\SVGCompanyTwitter.res
+o assets\SVGs\components\SVGCompanyTwitter.d : deps assets\SVGs\components\SVGCompanyTwitter.ast
+o assets\SVGs\components\SVGCompanyTwitter.cmj assets\SVGs\components\SVGCompanyTwitter.cmi ..\..\assets\SVGs\components\SVGCompanyTwitter.bs.js : mij assets\SVGs\components\SVGCompanyTwitter.ast
+o assets\SVGs\components\SVGJavaScriptMini.ast : astj ..\..\assets\SVGs\components\SVGJavaScriptMini.res
+o assets\SVGs\components\SVGJavaScriptMini.d : deps assets\SVGs\components\SVGJavaScriptMini.ast
+o assets\SVGs\components\SVGJavaScriptMini.cmj assets\SVGs\components\SVGJavaScriptMini.cmi ..\..\assets\SVGs\components\SVGJavaScriptMini.bs.js : mij assets\SVGs\components\SVGJavaScriptMini.ast
+o assets\SVGs\components\SVGSocialDribbble.ast : astj ..\..\assets\SVGs\components\SVGSocialDribbble.res
+o assets\SVGs\components\SVGSocialDribbble.d : deps assets\SVGs\components\SVGSocialDribbble.ast
+o assets\SVGs\components\SVGSocialDribbble.cmj assets\SVGs\components\SVGSocialDribbble.cmi ..\..\assets\SVGs\components\SVGSocialDribbble.bs.js : mij assets\SVGs\components\SVGSocialDribbble.ast
+o assets\SVGs\components\SVGSocialLinkedin.ast : astj ..\..\assets\SVGs\components\SVGSocialLinkedin.res
+o assets\SVGs\components\SVGSocialLinkedin.d : deps assets\SVGs\components\SVGSocialLinkedin.ast
+o assets\SVGs\components\SVGSocialLinkedin.cmj assets\SVGs\components\SVGSocialLinkedin.cmi ..\..\assets\SVGs\components\SVGSocialLinkedin.bs.js : mij assets\SVGs\components\SVGSocialLinkedin.ast
+o assets\SVGs\components\SVGActivityRunning.ast : astj ..\..\assets\SVGs\components\SVGActivityRunning.res
+o assets\SVGs\components\SVGActivityRunning.d : deps assets\SVGs\components\SVGActivityRunning.ast
+o assets\SVGs\components\SVGActivityRunning.cmj assets\SVGs\components\SVGActivityRunning.cmi ..\..\assets\SVGs\components\SVGActivityRunning.bs.js : mij assets\SVGs\components\SVGActivityRunning.ast
+o assets\SVGs\components\SVGActivityStandup.ast : astj ..\..\assets\SVGs\components\SVGActivityStandup.res
+o assets\SVGs\components\SVGActivityStandup.d : deps assets\SVGs\components\SVGActivityStandup.ast
+o assets\SVGs\components\SVGActivityStandup.cmj assets\SVGs\components\SVGActivityStandup.cmi ..\..\assets\SVGs\components\SVGActivityStandup.bs.js : mij assets\SVGs\components\SVGActivityStandup.ast
+o assets\SVGs\components\SVGCompanyFacebook.ast : astj ..\..\assets\SVGs\components\SVGCompanyFacebook.res
+o assets\SVGs\components\SVGCompanyFacebook.d : deps assets\SVGs\components\SVGCompanyFacebook.ast
+o assets\SVGs\components\SVGCompanyFacebook.cmj assets\SVGs\components\SVGCompanyFacebook.cmi ..\..\assets\SVGs\components\SVGCompanyFacebook.bs.js : mij assets\SVGs\components\SVGCompanyFacebook.ast
+o assets\SVGs\components\SVGDevRescriptIcon.ast : astj ..\..\assets\SVGs\components\SVGDevRescriptIcon.res
+o assets\SVGs\components\SVGDevRescriptIcon.d : deps assets\SVGs\components\SVGDevRescriptIcon.ast
+o assets\SVGs\components\SVGDevRescriptIcon.cmj assets\SVGs\components\SVGDevRescriptIcon.cmi ..\..\assets\SVGs\components\SVGDevRescriptIcon.bs.js : mij assets\SVGs\components\SVGDevRescriptIcon.ast
+o assets\SVGs\components\SVGFlashyTriangle1.ast : astj ..\..\assets\SVGs\components\SVGFlashyTriangle1.res
+o assets\SVGs\components\SVGFlashyTriangle1.d : deps assets\SVGs\components\SVGFlashyTriangle1.ast
+o assets\SVGs\components\SVGFlashyTriangle1.cmj assets\SVGs\components\SVGFlashyTriangle1.cmi ..\..\assets\SVGs\components\SVGFlashyTriangle1.bs.js : mij assets\SVGs\components\SVGFlashyTriangle1.ast
+o assets\SVGs\components\SVGFlashyTriangle2.ast : astj ..\..\assets\SVGs\components\SVGFlashyTriangle2.res
+o assets\SVGs\components\SVGFlashyTriangle2.d : deps assets\SVGs\components\SVGFlashyTriangle2.ast
+o assets\SVGs\components\SVGFlashyTriangle2.cmj assets\SVGs\components\SVGFlashyTriangle2.cmi ..\..\assets\SVGs\components\SVGFlashyTriangle2.bs.js : mij assets\SVGs\components\SVGFlashyTriangle2.ast
+o assets\SVGs\components\SVGFlashyTriangle3.ast : astj ..\..\assets\SVGs\components\SVGFlashyTriangle3.res
+o assets\SVGs\components\SVGFlashyTriangle3.d : deps assets\SVGs\components\SVGFlashyTriangle3.ast
+o assets\SVGs\components\SVGFlashyTriangle3.cmj assets\SVGs\components\SVGFlashyTriangle3.cmi ..\..\assets\SVGs\components\SVGFlashyTriangle3.bs.js : mij assets\SVGs\components\SVGFlashyTriangle3.ast
+o assets\SVGs\components\SVGIPhoneStatusBar.ast : astj ..\..\assets\SVGs\components\SVGIPhoneStatusBar.res
+o assets\SVGs\components\SVGIPhoneStatusBar.d : deps assets\SVGs\components\SVGIPhoneStatusBar.ast
+o assets\SVGs\components\SVGIPhoneStatusBar.cmj assets\SVGs\components\SVGIPhoneStatusBar.cmi ..\..\assets\SVGs\components\SVGIPhoneStatusBar.bs.js : mij assets\SVGs\components\SVGIPhoneStatusBar.ast
+o assets\SVGs\components\SVGActivityCrossfit.ast : astj ..\..\assets\SVGs\components\SVGActivityCrossfit.res
+o assets\SVGs\components\SVGActivityCrossfit.d : deps assets\SVGs\components\SVGActivityCrossfit.ast
+o assets\SVGs\components\SVGActivityCrossfit.cmj assets\SVGs\components\SVGActivityCrossfit.cmi ..\..\assets\SVGs\components\SVGActivityCrossfit.bs.js : mij assets\SVGs\components\SVGActivityCrossfit.ast
+o assets\SVGs\components\SVGActivityTrekking.ast : astj ..\..\assets\SVGs\components\SVGActivityTrekking.res
+o assets\SVGs\components\SVGActivityTrekking.d : deps assets\SVGs\components\SVGActivityTrekking.ast
+o assets\SVGs\components\SVGActivityTrekking.cmj assets\SVGs\components\SVGActivityTrekking.cmi ..\..\assets\SVGs\components\SVGActivityTrekking.bs.js : mij assets\SVGs\components\SVGActivityTrekking.ast
+o assets\SVGs\components\SVGCompanyAlltricks.ast : astj ..\..\assets\SVGs\components\SVGCompanyAlltricks.res
+o assets\SVGs\components\SVGCompanyAlltricks.d : deps assets\SVGs\components\SVGCompanyAlltricks.ast
+o assets\SVGs\components\SVGCompanyAlltricks.cmj assets\SVGs\components\SVGCompanyAlltricks.cmi ..\..\assets\SVGs\components\SVGCompanyAlltricks.bs.js : mij assets\SVGs\components\SVGCompanyAlltricks.ast
+o assets\SVGs\components\SVGCompanyMicrosoft.ast : astj ..\..\assets\SVGs\components\SVGCompanyMicrosoft.res
+o assets\SVGs\components\SVGCompanyMicrosoft.d : deps assets\SVGs\components\SVGCompanyMicrosoft.ast
+o assets\SVGs\components\SVGCompanyMicrosoft.cmj assets\SVGs\components\SVGCompanyMicrosoft.cmi ..\..\assets\SVGs\components\SVGCompanyMicrosoft.bs.js : mij assets\SVGs\components\SVGCompanyMicrosoft.ast
+o assets\SVGs\components\SVGCompanyMolotovTv.ast : astj ..\..\assets\SVGs\components\SVGCompanyMolotovTv.res
+o assets\SVGs\components\SVGCompanyMolotovTv.d : deps assets\SVGs\components\SVGCompanyMolotovTv.ast
+o assets\SVGs\components\SVGCompanyMolotovTv.cmj assets\SVGs\components\SVGCompanyMolotovTv.cmi ..\..\assets\SVGs\components\SVGCompanyMolotovTv.bs.js : mij assets\SVGs\components\SVGCompanyMolotovTv.ast
+o assets\SVGs\components\SVGCompanyViareport.ast : astj ..\..\assets\SVGs\components\SVGCompanyViareport.res
+o assets\SVGs\components\SVGCompanyViareport.d : deps assets\SVGs\components\SVGCompanyViareport.ast
+o assets\SVGs\components\SVGCompanyViareport.cmj assets\SVGs\components\SVGCompanyViareport.cmi ..\..\assets\SVGs\components\SVGCompanyViareport.bs.js : mij assets\SVGs\components\SVGCompanyViareport.ast
+o assets\SVGs\components\SVGActivitySkydiving.ast : astj ..\..\assets\SVGs\components\SVGActivitySkydiving.res
+o assets\SVGs\components\SVGActivitySkydiving.d : deps assets\SVGs\components\SVGActivitySkydiving.ast
+o assets\SVGs\components\SVGActivitySkydiving.cmj assets\SVGs\components\SVGActivitySkydiving.cmi ..\..\assets\SVGs\components\SVGActivitySkydiving.bs.js : mij assets\SVGs\components\SVGActivitySkydiving.ast
+o assets\SVGs\components\SVGActivityWakeboard.ast : astj ..\..\assets\SVGs\components\SVGActivityWakeboard.res
+o assets\SVGs\components\SVGActivityWakeboard.d : deps assets\SVGs\components\SVGActivityWakeboard.ast
+o assets\SVGs\components\SVGActivityWakeboard.cmj assets\SVGs\components\SVGActivityWakeboard.cmi ..\..\assets\SVGs\components\SVGActivityWakeboard.bs.js : mij assets\SVGs\components\SVGActivityWakeboard.ast
+o assets\SVGs\components\SVGDevJavascriptIcon.ast : astj ..\..\assets\SVGs\components\SVGDevJavascriptIcon.res
+o assets\SVGs\components\SVGDevJavascriptIcon.d : deps assets\SVGs\components\SVGDevJavascriptIcon.ast
+o assets\SVGs\components\SVGDevJavascriptIcon.cmj assets\SVGs\components\SVGDevJavascriptIcon.cmi ..\..\assets\SVGs\components\SVGDevJavascriptIcon.bs.js : mij assets\SVGs\components\SVGDevJavascriptIcon.ast
+o assets\SVGs\components\SVGJavaScriptOutline.ast : astj ..\..\assets\SVGs\components\SVGJavaScriptOutline.res
+o assets\SVGs\components\SVGJavaScriptOutline.d : deps assets\SVGs\components\SVGJavaScriptOutline.ast
+o assets\SVGs\components\SVGJavaScriptOutline.cmj assets\SVGs\components\SVGJavaScriptOutline.cmi ..\..\assets\SVGs\components\SVGJavaScriptOutline.bs.js : mij assets\SVGs\components\SVGJavaScriptOutline.ast
+o assets\SVGs\components\SVGActivityMartialArt.ast : astj ..\..\assets\SVGs\components\SVGActivityMartialArt.res
+o assets\SVGs\components\SVGActivityMartialArt.d : deps assets\SVGs\components\SVGActivityMartialArt.ast
+o assets\SVGs\components\SVGActivityMartialArt.cmj assets\SVGs\components\SVGActivityMartialArt.cmi ..\..\assets\SVGs\components\SVGActivityMartialArt.bs.js : mij assets\SVGs\components\SVGActivityMartialArt.ast
+o assets\SVGs\components\SVGActivitySkateboard.ast : astj ..\..\assets\SVGs\components\SVGActivitySkateboard.res
+o assets\SVGs\components\SVGActivitySkateboard.d : deps assets\SVGs\components\SVGActivitySkateboard.ast
+o assets\SVGs\components\SVGActivitySkateboard.cmj assets\SVGs\components\SVGActivitySkateboard.cmi ..\..\assets\SVGs\components\SVGActivitySkateboard.bs.js : mij assets\SVGs\components\SVGActivitySkateboard.ast
+o assets\SVGs\components\SVGActivityBeachVolley.ast : astj ..\..\assets\SVGs\components\SVGActivityBeachVolley.res
+o assets\SVGs\components\SVGActivityBeachVolley.d : deps assets\SVGs\components\SVGActivityBeachVolley.ast
+o assets\SVGs\components\SVGActivityBeachVolley.cmj assets\SVGs\components\SVGActivityBeachVolley.cmi ..\..\assets\SVGs\components\SVGActivityBeachVolley.bs.js : mij assets\SVGs\components\SVGActivityBeachVolley.ast
+o assets\SVGs\components\SVGCompanyKisioDigital.ast : astj ..\..\assets\SVGs\components\SVGCompanyKisioDigital.res
+o assets\SVGs\components\SVGCompanyKisioDigital.d : deps assets\SVGs\components\SVGCompanyKisioDigital.ast
+o assets\SVGs\components\SVGCompanyKisioDigital.cmj assets\SVGs\components\SVGCompanyKisioDigital.cmi ..\..\assets\SVGs\components\SVGCompanyKisioDigital.bs.js : mij assets\SVGs\components\SVGCompanyKisioDigital.ast
+o assets\SVGs\components\SVGSpeechBubbleOutline.ast : astj ..\..\assets\SVGs\components\SVGSpeechBubbleOutline.res
+o assets\SVGs\components\SVGSpeechBubbleOutline.d : deps assets\SVGs\components\SVGSpeechBubbleOutline.ast
+o assets\SVGs\components\SVGSpeechBubbleOutline.cmj assets\SVGs\components\SVGSpeechBubbleOutline.cmi ..\..\assets\SVGs\components\SVGSpeechBubbleOutline.bs.js : mij assets\SVGs\components\SVGSpeechBubbleOutline.ast
+o assets\SVGs\components\SVGSpeechBubbleComposing.ast : astj ..\..\assets\SVGs\components\SVGSpeechBubbleComposing.res
+o assets\SVGs\components\SVGSpeechBubbleComposing.d : deps assets\SVGs\components\SVGSpeechBubbleComposing.ast
+o assets\SVGs\components\SVGSpeechBubbleComposing.cmj assets\SVGs\components\SVGSpeechBubbleComposing.cmi ..\..\assets\SVGs\components\SVGSpeechBubbleComposing.bs.js : mij assets\SVGs\components\SVGSpeechBubbleComposing.ast
+o assets\SVGs\components\SVGArrowRoundedWithTailTop.ast : astj ..\..\assets\SVGs\components\SVGArrowRoundedWithTailTop.res
+o assets\SVGs\components\SVGArrowRoundedWithTailTop.d : deps assets\SVGs\components\SVGArrowRoundedWithTailTop.ast
+o assets\SVGs\components\SVGArrowRoundedWithTailTop.cmj assets\SVGs\components\SVGArrowRoundedWithTailTop.cmi ..\..\assets\SVGs\components\SVGArrowRoundedWithTailTop.bs.js : mij assets\SVGs\components\SVGArrowRoundedWithTailTop.ast
+o assets\SVGs\components\SVGActivityObstacleCourseRace.ast : astj ..\..\assets\SVGs\components\SVGActivityObstacleCourseRace.res
+o assets\SVGs\components\SVGActivityObstacleCourseRace.d : deps assets\SVGs\components\SVGActivityObstacleCourseRace.ast
+o assets\SVGs\components\SVGActivityObstacleCourseRace.cmj assets\SVGs\components\SVGActivityObstacleCourseRace.cmi ..\..\assets\SVGs\components\SVGActivityObstacleCourseRace.bs.js : mij assets\SVGs\components\SVGActivityObstacleCourseRace.ast
+o src\T.ast : astj ..\..\src\T.res
+o src\T.d : deps src\T.ast
+o src\T.cmj src\T.cmi ..\..\src\T.bs.js : mij src\T.ast
+o src\Consts.ast : astj ..\..\src\Consts.res
+o src\Consts.d : deps src\Consts.ast
+o src\Consts.cmj src\Consts.cmi ..\..\src\Consts.bs.js : mij src\Consts.ast
+o src\BackendApi.ast : astj ..\..\src\BackendApi.res
+o src\BackendApi.d : deps src\BackendApi.ast
+o src\BackendApi.cmj src\BackendApi.cmi ..\..\src\BackendApi.bs.js : mij src\BackendApi.ast
+o src\BlogFrontend.ast : astj ..\..\src\BlogFrontend.res
+o src\BlogFrontend.d : deps src\BlogFrontend.ast
+o src\BlogFrontend.cmj src\BlogFrontend.cmi ..\..\src\BlogFrontend.bs.js : mij src\BlogFrontend.ast
+o src\TalksFrontend.ast : astj ..\..\src\TalksFrontend.res
+o src\TalksFrontend.d : deps src\TalksFrontend.ast
+o src\TalksFrontend.cmj src\TalksFrontend.cmi ..\..\src\TalksFrontend.bs.js : mij src\TalksFrontend.ast
+o src\ResumeFrontend.ast : astj ..\..\src\ResumeFrontend.res
+o src\ResumeFrontend.d : deps src\ResumeFrontend.ast
+o src\ResumeFrontend.cmj src\ResumeFrontend.cmi ..\..\src\ResumeFrontend.bs.js : mij src\ResumeFrontend.ast
+o src\pages\PageDev.ast : astj ..\..\src\pages\PageDev.res
+o src\pages\PageDev.d : deps src\pages\PageDev.ast
+o src\pages\PageDev.cmj src\pages\PageDev.cmi ..\..\src\pages\PageDev.bs.js : mij src\pages\PageDev.ast
+o src\pages\PageApps.ast : astj ..\..\src\pages\PageApps.res
+o src\pages\PageApps.d : deps src\pages\PageApps.ast
+o src\pages\PageApps.cmj src\pages\PageApps.cmi ..\..\src\pages\PageApps.bs.js : mij src\pages\PageApps.ast
+o src\pages\PageBlog.ast : astj ..\..\src\pages\PageBlog.res
+o src\pages\PageBlog.d : deps src\pages\PageBlog.ast
+o src\pages\PageBlog.cmj src\pages\PageBlog.cmi ..\..\src\pages\PageBlog.bs.js : mij src\pages\PageBlog.ast
+o src\pages\PageTalk.ast : astj ..\..\src\pages\PageTalk.res
+o src\pages\PageTalk.d : deps src\pages\PageTalk.ast
+o src\pages\PageTalk.cmj src\pages\PageTalk.cmi ..\..\src\pages\PageTalk.bs.js : mij src\pages\PageTalk.ast
+o src\pages\PageError.ast : astj ..\..\src\pages\PageError.res
+o src\pages\PageError.d : deps src\pages\PageError.ast
+o src\pages\PageError.cmj src\pages\PageError.cmi ..\..\src\pages\PageError.bs.js : mij src\pages\PageError.ast
+o src\pages\PageIndex.ast : astj ..\..\src\pages\PageIndex.res
+o src\pages\PageIndex.d : deps src\pages\PageIndex.ast
+o src\pages\PageIndex.cmj src\pages\PageIndex.cmi ..\..\src\pages\PageIndex.bs.js : mij src\pages\PageIndex.ast
+o src\pages\PageTalks.ast : astj ..\..\src\pages\PageTalks.res
+o src\pages\PageTalks.d : deps src\pages\PageTalks.ast
+o src\pages\PageTalks.cmj src\pages\PageTalks.cmi ..\..\src\pages\PageTalks.bs.js : mij src\pages\PageTalks.ast
+o src\pages\PageResume.ast : astj ..\..\src\pages\PageResume.res
+o src\pages\PageResume.d : deps src\pages\PageResume.ast
+o src\pages\PageResume.cmj src\pages\PageResume.cmi ..\..\src\pages\PageResume.bs.js : mij src\pages\PageResume.ast
+o src\pages\PageContact.ast : astj ..\..\src\pages\PageContact.res
+o src\pages\PageContact.d : deps src\pages\PageContact.ast
+o src\pages\PageContact.cmj src\pages\PageContact.cmi ..\..\src\pages\PageContact.bs.js : mij src\pages\PageContact.ast
+o src\pages\PageBlogPost.ast : astj ..\..\src\pages\PageBlogPost.res
+o src\pages\PageBlogPost.d : deps src\pages\PageBlogPost.ast
+o src\pages\PageBlogPost.cmj src\pages\PageBlogPost.cmi ..\..\src\pages\PageBlogPost.bs.js : mij src\pages\PageBlogPost.ast
+o src\pages\PageServices.ast : astj ..\..\src\pages\PageServices.res
+o src\pages\PageServices.d : deps src\pages\PageServices.ast
+o src\pages\PageServices.cmj src\pages\PageServices.cmi ..\..\src\pages\PageServices.bs.js : mij src\pages\PageServices.ast
+o src\pages\_\messages\PageMessageForKyan.ast : astj ..\..\src\pages\_\messages\PageMessageForKyan.res
+o src\pages\_\messages\PageMessageForKyan.d : deps src\pages\_\messages\PageMessageForKyan.ast
+o src\pages\_\messages\PageMessageForKyan.cmj src\pages\_\messages\PageMessageForKyan.cmi ..\..\src\pages\_\messages\PageMessageForKyan.bs.js : mij src\pages\_\messages\PageMessageForKyan.ast
+o src\components\Html.ast : astj ..\..\src\components\Html.res
+o src\components\Html.d : deps src\components\Html.ast
+o src\components\Html.cmj src\components\Html.cmi ..\..\src\components\Html.bs.js : mij src\components\Html.ast
+o src\components\Huge.ast : astj ..\..\src\components\Huge.res
+o src\components\Huge.d : deps src\components\Huge.ast
+o src\components\Huge.cmj src\components\Huge.cmi ..\..\src\components\Huge.bs.js : mij src\components\Huge.ast
+o src\components\Avatar.ast : astj ..\..\src\components\Avatar.res
+o src\components\Avatar.d : deps src\components\Avatar.ast
+o src\components\Avatar.cmj src\components\Avatar.cmi ..\..\src\components\Avatar.bs.js : mij src\components\Avatar.ast
+o src\components\Footer.ast : astj ..\..\src\components\Footer.res
+o src\components\Footer.d : deps src\components\Footer.ast
+o src\components\Footer.cmj src\components\Footer.cmi ..\..\src\components\Footer.bs.js : mij src\components\Footer.ast
+o src\components\Skills.ast : astj ..\..\src\components\Skills.res
+o src\components\Skills.d : deps src\components\Skills.ast
+o src\components\Skills.cmj src\components\Skills.cmi ..\..\src\components\Skills.bs.js : mij src\components\Skills.ast
+o src\components\TabBar.ast : astj ..\..\src\components\TabBar.res
+o src\components\TabBar.d : deps src\components\TabBar.ast
+o src\components\TabBar.cmj src\components\TabBar.cmi ..\..\src\components\TabBar.bs.js : mij src\components\TabBar.ast
+o src\components\AppMeta.ast : astj ..\..\src\components\AppMeta.res
+o src\components\AppMeta.d : deps src\components\AppMeta.ast
+o src\components\AppMeta.cmj src\components\AppMeta.cmi ..\..\src\components\AppMeta.bs.js : mij src\components\AppMeta.ast
+o src\components\PostList.ast : astj ..\..\src\components\PostList.res
+o src\components\PostList.d : deps src\components\PostList.ast
+o src\components\PostList.cmj src\components\PostList.cmi ..\..\src\components\PostList.bs.js : mij src\components\PostList.ast
+o src\components\TalkList.ast : astj ..\..\src\components\TalkList.res
+o src\components\TalkList.d : deps src\components\TalkList.ast
+o src\components\TalkList.cmj src\components\TalkList.cmi ..\..\src\components\TalkList.bs.js : mij src\components\TalkList.ast
+o src\components\TextLink.ast : astj ..\..\src\components\TextLink.res
+o src\components\TextLink.d : deps src\components\TextLink.ast
+o src\components\TextLink.cmj src\components\TextLink.cmi ..\..\src\components\TextLink.bs.js : mij src\components\TextLink.ast
+o src\components\Triangle.ast : astj ..\..\src\components\Triangle.res
+o src\components\Triangle.d : deps src\components\Triangle.ast
+o src\components\Triangle.cmj src\components\Triangle.cmi ..\..\src\components\Triangle.bs.js : mij src\components\Triangle.ast
+o src\components\ViewLink.ast : astj ..\..\src\components\ViewLink.res
+o src\components\ViewLink.d : deps src\components\ViewLink.ast
+o src\components\ViewLink.cmj src\components\ViewLink.cmi ..\..\src\components\ViewLink.bs.js : mij src\components\ViewLink.ast
+o src\components\ErrorView.ast : astj ..\..\src\components\ErrorView.res
+o src\components\ErrorView.d : deps src\components\ErrorView.ast
+o src\components\ErrorView.cmj src\components\ErrorView.cmi ..\..\src\components\ErrorView.bs.js : mij src\components\ErrorView.ast
+o src\components\AppWrapper.ast : astj ..\..\src\components\AppWrapper.res
+o src\components\AppWrapper.d : deps src\components\AppWrapper.ast
+o src\components\AppWrapper.cmj src\components\AppWrapper.cmi ..\..\src\components\AppWrapper.bs.js : mij src\components\AppWrapper.ast
+o src\components\Background.ast : astj ..\..\src\components\Background.res
+o src\components\Background.d : deps src\components\Background.ast
+o src\components\Background.cmj src\components\Background.cmi ..\..\src\components\Background.bs.js : mij src\components\Background.ast
+o src\components\LinkButton.ast : astj ..\..\src\components\LinkButton.res
+o src\components\LinkButton.d : deps src\components\LinkButton.ast
+o src\components\LinkButton.cmj src\components\LinkButton.cmi ..\..\src\components\LinkButton.bs.js : mij src\components\LinkButton.ast
+o src\components\ScreenHome.ast : astj ..\..\src\components\ScreenHome.res
+o src\components\ScreenHome.d : deps src\components\ScreenHome.ast
+o src\components\ScreenHome.cmj src\components\ScreenHome.cmi ..\..\src\components\ScreenHome.bs.js : mij src\components\ScreenHome.ast
+o src\components\TabBarItem.ast : astj ..\..\src\components\TabBarItem.res
+o src\components\TabBarItem.d : deps src\components\TabBarItem.ast
+o src\components\TabBarItem.cmj src\components\TabBarItem.cmi ..\..\src\components\TabBarItem.bs.js : mij src\components\TabBarItem.ast
+o src\components\HeaderLarge.ast : astj ..\..\src\components\HeaderLarge.res
+o src\components\HeaderLarge.d : deps src\components\HeaderLarge.ast
+o src\components\HeaderLarge.cmj src\components\HeaderLarge.cmi ..\..\src\components\HeaderLarge.bs.js : mij src\components\HeaderLarge.ast
+o src\components\HeaderSmall.ast : astj ..\..\src\components\HeaderSmall.res
+o src\components\HeaderSmall.d : deps src\components\HeaderSmall.ast
+o src\components\HeaderSmall.cmj src\components\HeaderSmall.cmi ..\..\src\components\HeaderSmall.bs.js : mij src\components\HeaderSmall.ast
+o src\components\PostPreview.ast : astj ..\..\src\components\PostPreview.res
+o src\components\PostPreview.d : deps src\components\PostPreview.ast
+o src\components\PostPreview.cmj src\components\PostPreview.cmi ..\..\src\components\PostPreview.bs.js : mij src\components\PostPreview.ast
+o src\components\SocialIcons.ast : astj ..\..\src\components\SocialIcons.res
+o src\components\SocialIcons.d : deps src\components\SocialIcons.ast
+o src\components\SocialIcons.cmj src\components\SocialIcons.cmi ..\..\src\components\SocialIcons.bs.js : mij src\components\SocialIcons.ast
+o src\components\TalkPreview.ast : astj ..\..\src\components\TalkPreview.res
+o src\components\TalkPreview.d : deps src\components\TalkPreview.ast
+o src\components\TalkPreview.cmj src\components\TalkPreview.cmi ..\..\src\components\TalkPreview.bs.js : mij src\components\TalkPreview.ast
+o src\components\ImageFromUri.ast : astj ..\..\src\components\ImageFromUri.res
+o src\components\ImageFromUri.d : deps src\components\ImageFromUri.ast
+o src\components\ImageFromUri.cmj src\components\ImageFromUri.cmi ..\..\src\components\ImageFromUri.bs.js : mij src\components\ImageFromUri.ast
+o src\components\MeBackground.ast : astj ..\..\src\components\MeBackground.res
+o src\components\MeBackground.d : deps src\components\MeBackground.ast
+o src\components\MeBackground.cmj src\components\MeBackground.cmi ..\..\src\components\MeBackground.bs.js : mij src\components\MeBackground.ast
+o src\components\DeviceIPhoneX.ast : astj ..\..\src\components\DeviceIPhoneX.res
+o src\components\DeviceIPhoneX.d : deps src\components\DeviceIPhoneX.ast
+o src\components\DeviceIPhoneX.cmj src\components\DeviceIPhoneX.cmi ..\..\src\components\DeviceIPhoneX.bs.js : mij src\components\DeviceIPhoneX.ast
+o src\components\HeaderDesktop.ast : astj ..\..\src\components\HeaderDesktop.res
+o src\components\HeaderDesktop.d : deps src\components\HeaderDesktop.ast
+o src\components\HeaderDesktop.cmj src\components\HeaderDesktop.cmi ..\..\src\components\HeaderDesktop.bs.js : mij src\components\HeaderDesktop.ast
+o src\components\HomeJumbotron.ast : astj ..\..\src\components\HomeJumbotron.res
+o src\components\HomeJumbotron.d : deps src\components\HomeJumbotron.ast
+o src\components\HomeJumbotron.cmj src\components\HomeJumbotron.cmi ..\..\src\components\HomeJumbotron.bs.js : mij src\components\HomeJumbotron.ast
+o src\components\JumbotronApps.ast : astj ..\..\src\components\JumbotronApps.res
+o src\components\JumbotronApps.d : deps src\components\JumbotronApps.ast
+o src\components\JumbotronApps.cmj src\components\JumbotronApps.cmi ..\..\src\components\JumbotronApps.bs.js : mij src\components\JumbotronApps.ast
+o src\components\WebsiteFooter.ast : astj ..\..\src\components\WebsiteFooter.res
+o src\components\WebsiteFooter.d : deps src\components\WebsiteFooter.ast
+o src\components\WebsiteFooter.cmj src\components\WebsiteFooter.cmi ..\..\src\components\WebsiteFooter.bs.js : mij src\components\WebsiteFooter.ast
+o src\components\WebsiteHeader.ast : astj ..\..\src\components\WebsiteHeader.res
+o src\components\WebsiteHeader.d : deps src\components\WebsiteHeader.ast
+o src\components\WebsiteHeader.cmj src\components\WebsiteHeader.cmi ..\..\src\components\WebsiteHeader.bs.js : mij src\components\WebsiteHeader.ast
+o src\components\DisqusComments.ast : astj ..\..\src\components\DisqusComments.res
+o src\components\DisqusComments.d : deps src\components\DisqusComments.ast
+o src\components\DisqusComments.cmj src\components\DisqusComments.cmi ..\..\src\components\DisqusComments.bs.js : mij src\components\DisqusComments.ast
+o src\components\JumbotronTalks.ast : astj ..\..\src\components\JumbotronTalks.res
+o src\components\JumbotronTalks.d : deps src\components\JumbotronTalks.ast
+o src\components\JumbotronTalks.cmj src\components\JumbotronTalks.cmi ..\..\src\components\JumbotronTalks.bs.js : mij src\components\JumbotronTalks.ast
+o src\components\MyBodyRenderer.ast : astj ..\..\src\components\MyBodyRenderer.res
+o src\components\MyBodyRenderer.d : deps src\components\MyBodyRenderer.ast
+o src\components\MyBodyRenderer.cmj src\components\MyBodyRenderer.cmi ..\..\src\components\MyBodyRenderer.bs.js : mij src\components\MyBodyRenderer.ast
+o src\components\ResumeTimeline.ast : astj ..\..\src\components\ResumeTimeline.res
+o src\components\ResumeTimeline.d : deps src\components\ResumeTimeline.ast
+o src\components\ResumeTimeline.cmj src\components\ResumeTimeline.cmi ..\..\src\components\ResumeTimeline.bs.js : mij src\components\ResumeTimeline.ast
+o src\components\ButtonContainer.ast : astj ..\..\src\components\ButtonContainer.res
+o src\components\ButtonContainer.d : deps src\components\ButtonContainer.ast
+o src\components\ButtonContainer.cmj src\components\ButtonContainer.cmi ..\..\src\components\ButtonContainer.bs.js : mij src\components\ButtonContainer.ast
+o src\components\CardWithGradient.ast : astj ..\..\src\components\CardWithGradient.res
+o src\components\CardWithGradient.d : deps src\components\CardWithGradient.ast
+o src\components\CardWithGradient.cmj src\components\CardWithGradient.cmi ..\..\src\components\CardWithGradient.bs.js : mij src\components\CardWithGradient.ast
+o src\components\LoadingIndicator.ast : astj ..\..\src\components\LoadingIndicator.res
+o src\components\LoadingIndicator.d : deps src\components\LoadingIndicator.ast
+o src\components\LoadingIndicator.cmj src\components\LoadingIndicator.cmi ..\..\src\components\LoadingIndicator.bs.js : mij src\components\LoadingIndicator.ast
+o src\components\ScreenAppInStore.ast : astj ..\..\src\components\ScreenAppInStore.res
+o src\components\ScreenAppInStore.d : deps src\components\ScreenAppInStore.ast
+o src\components\ScreenAppInStore.cmj src\components\ScreenAppInStore.cmi ..\..\src\components\ScreenAppInStore.bs.js : mij src\components\ScreenAppInStore.ast
+o src\components\ViewWithGradient.ast : astj ..\..\src\components\ViewWithGradient.res
+o src\components\ViewWithGradient.d : deps src\components\ViewWithGradient.ast
+o src\components\ViewWithGradient.cmj src\components\ViewWithGradient.cmi ..\..\src\components\ViewWithGradient.bs.js : mij src\components\ViewWithGradient.ast
+o src\components\WindowSizeFilter.ast : astj ..\..\src\components\WindowSizeFilter.res
+o src\components\WindowSizeFilter.d : deps src\components\WindowSizeFilter.ast
+o src\components\WindowSizeFilter.cmj src\components\WindowSizeFilter.cmi ..\..\src\components\WindowSizeFilter.bs.js : mij src\components\WindowSizeFilter.ast
+o src\components\ScreenAppInSearch.ast : astj ..\..\src\components\ScreenAppInSearch.res
+o src\components\ScreenAppInSearch.d : deps src\components\ScreenAppInSearch.ast
+o src\components\ScreenAppInSearch.cmj src\components\ScreenAppInSearch.cmi ..\..\src\components\ScreenAppInSearch.bs.js : mij src\components\ScreenAppInSearch.ast
+o src\components\UnderlinedTextLink.ast : astj ..\..\src\components\UnderlinedTextLink.res
+o src\components\UnderlinedTextLink.d : deps src\components\UnderlinedTextLink.ast
+o src\components\UnderlinedTextLink.cmj src\components\UnderlinedTextLink.cmi ..\..\src\components\UnderlinedTextLink.bs.js : mij src\components\UnderlinedTextLink.ast
+o src\components\BlocksAboutMySkills.ast : astj ..\..\src\components\BlocksAboutMySkills.res
+o src\components\BlocksAboutMySkills.d : deps src\components\BlocksAboutMySkills.ast
+o src\components\BlocksAboutMySkills.cmj src\components\BlocksAboutMySkills.cmi ..\..\src\components\BlocksAboutMySkills.bs.js : mij src\components\BlocksAboutMySkills.ast
+o src\components\ResumeTimelineEntry.ast : astj ..\..\src\components\ResumeTimelineEntry.res
+o src\components\ResumeTimelineEntry.d : deps src\components\ResumeTimelineEntry.ast
+o src\components\ResumeTimelineEntry.cmj src\components\ResumeTimelineEntry.cmi ..\..\src\components\ResumeTimelineEntry.bs.js : mij src\components\ResumeTimelineEntry.ast
+o src\components\SvgFilterTurbulence.ast : astj ..\..\src\components\SvgFilterTurbulence.res
+o src\components\SvgFilterTurbulence.d : deps src\components\SvgFilterTurbulence.ast
+o src\components\SvgFilterTurbulence.cmj src\components\SvgFilterTurbulence.cmi ..\..\src\components\SvgFilterTurbulence.bs.js : mij src\components\SvgFilterTurbulence.ast
+o src\components\ImageWithAspectRatio.ast : astj ..\..\src\components\ImageWithAspectRatio.res
+o src\components\ImageWithAspectRatio.d : deps src\components\ImageWithAspectRatio.ast
+o src\components\ImageWithAspectRatio.cmj src\components\ImageWithAspectRatio.cmi ..\..\src\components\ImageWithAspectRatio.bs.js : mij src\components\ImageWithAspectRatio.ast
+o src\components\StickyHeaderBackground.ast : astj ..\..\src\components\StickyHeaderBackground.res
+o src\components\StickyHeaderBackground.d : deps src\components\StickyHeaderBackground.ast
+o src\components\StickyHeaderBackground.cmj src\components\StickyHeaderBackground.cmi ..\..\src\components\StickyHeaderBackground.bs.js : mij src\components\StickyHeaderBackground.ast
+o src\components\JumbotronCreativeDeveloper.ast : astj ..\..\src\components\JumbotronCreativeDeveloper.res
+o src\components\JumbotronCreativeDeveloper.d : deps src\components\JumbotronCreativeDeveloper.ast
+o src\components\JumbotronCreativeDeveloper.cmj src\components\JumbotronCreativeDeveloper.cmi ..\..\src\components\JumbotronCreativeDeveloper.bs.js : mij src\components\JumbotronCreativeDeveloper.ast
+o src\components\PlaceholderWithAspectRatio.ast : astj ..\..\src\components\PlaceholderWithAspectRatio.res
+o src\components\PlaceholderWithAspectRatio.d : deps src\components\PlaceholderWithAspectRatio.ast
+o src\components\PlaceholderWithAspectRatio.cmj src\components\PlaceholderWithAspectRatio.cmi ..\..\src\components\PlaceholderWithAspectRatio.bs.js : mij src\components\PlaceholderWithAspectRatio.ast
+o src\components\LinkContactBubbleFixedBottom.ast : astj ..\..\src\components\LinkContactBubbleFixedBottom.res
+o src\components\LinkContactBubbleFixedBottom.d : deps src\components\LinkContactBubbleFixedBottom.ast
+o src\components\LinkContactBubbleFixedBottom.cmj src\components\LinkContactBubbleFixedBottom.cmi ..\..\src\components\LinkContactBubbleFixedBottom.bs.js : mij src\components\LinkContactBubbleFixedBottom.ast
+o src\components\shareable\Font.ast : astj ..\..\src\components\shareable\Font.res
+o src\components\shareable\Font.d : deps src\components\shareable\Font.ast
+o src\components\shareable\Font.cmj src\components\shareable\Font.cmi ..\..\src\components\shareable\Font.bs.js : mij src\components\shareable\Font.ast
+o src\components\shareable\Theme.ast : astj ..\..\src\components\shareable\Theme.res
+o src\components\shareable\Theme.d : deps src\components\shareable\Theme.ast
+o src\components\shareable\Theme.cmj src\components\shareable\Theme.cmi ..\..\src\components\shareable\Theme.bs.js : mij src\components\shareable\Theme.ast
+o src\components\shareable\GradientLinearBackground.ast : astj ..\..\src\components\shareable\GradientLinearBackground.res
+o src\components\shareable\GradientLinearBackground.d : deps src\components\shareable\GradientLinearBackground.ast
+o src\components\shareable\GradientLinearBackground.cmj src\components\shareable\GradientLinearBackground.cmi ..\..\src\components\shareable\GradientLinearBackground.bs.js : mij src\components\shareable\GradientLinearBackground.ast
+o src\components\shareable\GradientRadialBackground.ast : astj ..\..\src\components\shareable\GradientRadialBackground.res
+o src\components\shareable\GradientRadialBackground.d : deps src\components\shareable\GradientRadialBackground.ast
+o src\components\shareable\GradientRadialBackground.cmj src\components\shareable\GradientRadialBackground.cmi ..\..\src\components\shareable\GradientRadialBackground.bs.js : mij src\components\shareable\GradientRadialBackground.ast
