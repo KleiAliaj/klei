@@ -1,7 +1,7 @@
 open ReactNative
 open ReactMultiversal
 
-let title = j`MoOx`
+let title = j`Klei`
 let defaultTitle = j`Freelance Creative Developer, Front-End / Mobile & Web`
 let titleTemplate = j`%s - ` ++ title
 
