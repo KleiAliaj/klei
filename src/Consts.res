@@ -130,8 +130,8 @@ type lightLink = {
 let socialLinks = [
   {
     text: "GitHub",
-    alt: "@MoOx on GitHub",
-    link: "https://github.com/MoOx",
+    alt: "@Klei on GitHub",
+    link: "https://github.com/Klei",
     componentFunc: (~iconColor, ~iconSize) =>
       <SVGSocialGithub fill=iconColor width={iconSize->Style.dp} height={iconSize->Style.dp} />,
   },
