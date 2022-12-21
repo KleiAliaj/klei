@@ -23,7 +23,7 @@ hashtags:
   - Bitrise
   - Git
   - Fastlane
-image: /resume/vod.png
+image: /resume/totem.png
 remote: true
 links:
   - title: My VOdafone app iOS
