@@ -137,15 +137,15 @@ let socialLinks = [
   },
   {
     text: "Twitter",
-    alt: "@MoOx on Twitter",
-    link: "https://twitter.com/MoOx",
+    alt: "@Klei on Twitter",
+    link: "https://twitter.com/klei",
     componentFunc: (~iconColor, ~iconSize) =>
       <SVGSocialTwitter fill=iconColor width={iconSize->Style.dp} height={iconSize->Style.dp} />,
   },
   {
     text: "LinkedIn",
-    alt: "@MoOx on LinkedIn",
-    link: "https://www.linkedin.com/in/maxthirouin",
+    alt: "@Klei on LinkedIn",
+    link: "https://www.linkedin.com/in/klei-aliaj-226916107/",
     componentFunc: (~iconColor, ~iconSize) =>
       <SVGSocialLinkedin fill=iconColor width={iconSize->Style.dp} height={iconSize->Style.dp} />,
   },
@@ -153,15 +153,15 @@ let socialLinks = [
 let socialLinks2 = [
   {
     text: "Dribbble",
-    alt: "@MoOx on Dribbble",
-    link: "https://dribbble.com/MoOx",
+    alt: "@Klei on Dribbble",
+    link: "https://dribbble.com/Klei",
     componentFunc: (~iconColor, ~iconSize) =>
       <SVGSocialDribbble fill=iconColor width={iconSize->Style.dp} height={iconSize->Style.dp} />,
   },
   {
     text: "Youtube",
-    alt: "@MoOx on Youtube",
-    link: "https://www.youtube.com/channel/UCn_edMm2hg7k58E4eQGU7pA",
+    alt: "@Klei on Youtube",
+    link: "https://www.youtube.com/",
     componentFunc: (~iconColor, ~iconSize) =>
       <SVGSocialYoutube fill=iconColor width={iconSize->Style.dp} height={iconSize->Style.dp} />,
   },
@@ -170,22 +170,22 @@ let socialLinks2 = [
 let moreLinks = [
   {
     text: "App Store",
-    alt: "@MoOx on Apple App Store",
-    link: "https://apps.apple.com/us/developer/maxime-thirouin/id1312839982",
+    alt: "@Klei on Apple App Store",
+    link: "https://apps.apple.com/us/developer/",
     componentFunc: (~iconColor, ~iconSize) =>
       <SVGAppStoreApple fill=iconColor width={iconSize->Style.dp} height={iconSize->Style.dp} />,
   },
   {
     text: "Play Store",
-    alt: "@MoOx on Google Play Store",
-    link: "https://play.google.com/store/apps/dev?id=8171431484805703288",
+    alt: "@Klei on Google Play Store",
+    link: "https://play.google.com/store/apps/",
     componentFunc: (~iconColor, ~iconSize) =>
       <SVGAppStoreGoogle fill=iconColor width={iconSize->Style.dp} height={iconSize->Style.dp} />,
   },
   {
     text: "npm",
-    alt: "@MoOx on npm",
-    link: "https://www.npmjs.com/~moox",
+    alt: "@Klei on npm",
+    link: "https://www.npmjs.com/~klei",
     componentFunc: (~iconColor, ~iconSize) =>
       <SVGAppStoreNpm fill=iconColor width={iconSize->Style.dp} height={iconSize->Style.dp} />,
   },
@@ -197,11 +197,11 @@ let moreLinks2 = [
   },
   {
     text: "Source Karma",
-    link: "https://sourcekarma.vercel.app/MoOx",
+    link: "https://sourcekarma.vercel.app/",
   },
   {
     text: "Git Awards",
-    link: "http://git-awards.com/users/moox",
+    link: "http://git-awards.com/users/",
   },
 ]
 
