@@ -1,5 +1,5 @@
 ---
-company: "Loewe"
+company: "My Vodafone"
 title: "Media/TV Remote App"
 url: "https://www.loewe.tv/"
 description: >

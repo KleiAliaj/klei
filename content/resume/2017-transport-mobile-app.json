@@ -1,11 +1,11 @@
 {
-    "title":"SeniorDev2",
+    "title":"AI-rticulate",
     "headings":[
        
     ],
-    "company":"SeniorDev",
-    "url":"",
-    "description":"A google extension that helps with code generation",
+    "company":"Airticulate",
+    "url":"https://ai-rticulate.vercel.app/",
+    "description":"Generate a business model canvas with just one click\n",
     "dateStart":"2017-03-01T00:00:00.000Z",
     "dateEnd":"2018-06-01T00:00:00.000Z",
     "hashtags":[
@@ -29,7 +29,33 @@
        "Jenkins",
        "Fastlane"
     ],
-    "image":"/resume/dev.png",
+    "links":[
+       {
+          "title":"Ilévia iOS",
+          "url":"https://apps.apple.com/fr/app/ilévia/id429143032"
+       },
+       {
+          "title":"Ilévia Android",
+          "url":"https://play.google.com/store/apps/details?id=com.transpole.mobi"
+       },
+       {
+          "title":"TCL iOS",
+          "url":"https://apps.apple.com/fr/app/tcl/id579379606"
+       },
+       {
+          "title":"TCL Android",
+          "url":"https://play.google.com/store/apps/details?id=com.micropole.android.tcl_mobile"
+       },
+       {
+          "title":"Vermeille iOS",
+          "url":"https://apps.apple.com/fr/app/vermeille/id556842045"
+       },
+       {
+          "title":"Vermeille Android",
+          "url":"https://play.google.com/store/apps/details?id=com.micropole.android.canaltp.sts"
+       }
+    ],
+    "image":"/resume/adm.jpg",
     "remote":true,
     "body":{
        "tag":"div",
