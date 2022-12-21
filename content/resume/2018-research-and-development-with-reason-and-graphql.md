@@ -18,7 +18,7 @@ hashtags:
   - Server Side Rendering
   - Static Site
   - Webpack
-image: /resume/damebio.jpg
+image: /resume/totem.PNG
 remote: true
 links:
   - title: "Totem"
