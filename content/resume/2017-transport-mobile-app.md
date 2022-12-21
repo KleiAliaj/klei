@@ -1,7 +1,7 @@
 ---
-company: "Kisio Digital"
+company: "Airticulate"
 url: "http://www.kisiodigital.com"
-title: "Transport Mobile App"
+title: "Business Canva generation with AI"
 description: >
   iOS / Android app built for cities and transport networks
 dateStart: 2017-03-01
@@ -39,7 +39,7 @@ links:
     url: https://apps.apple.com/fr/app/vermeille/id556842045
   - title: Vermeille Android
     url: https://play.google.com/store/apps/details?id=com.micropole.android.canaltp.sts
-image: /resume/adm.jpg
+image: /resume/4.png
 remote: true
 ---
 
