@@ -109,7 +109,7 @@ let make = () => {
             "filter": "grayscale(100%) contrast(2)",
           }),
         ])}>
-        <Next.Image src="/me-with-hand-mic.png" width=350. height=350. objectFit=#contain />
+        <Next.Image src="/road.webp" width=350. height=350. objectFit=#contain />
       </View>
       <View style={array([StyleSheet.absoluteFill, Predefined.styles["rowCenter"]])}>
         <WindowSizeFilter.MMin>
@@ -137,9 +137,9 @@ let make = () => {
                 // "animation": ".4s linear infinite JumbotronCreativeDeveloperSVGFilterAnimation",
               }),
             ])}>
-            {"MoOx"->React.string}
+            {"Klei"->React.string}
           </Text>
-          <Text style={styles["subtitle"]}> {"Maxime Thirouin"->React.string} </Text>
+          <Text style={styles["subtitle"]}> {"Klei Aliaj"->React.string} </Text>
           <Spacer />
           <GradientLinearBackground
             angle={90.}
