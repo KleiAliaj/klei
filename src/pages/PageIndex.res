@@ -966,7 +966,7 @@ let make = () => {
               </Text>
               <Spacer size=M />
               <Text style={array([Font.ios["body"], theme.styles["text"]])}>
-                {`Because I am an artist before being a developer, I will focus on offering the best experience to the user. That's what matter after all.`->React.string}
+                {`Because I am a detailed-oriented person before being a developer, I will focus on offering the best experience to the user. That's what matter after all.`->React.string}
               </Text>
               <Spacer size=L />
               <Text style={array([Font.iosEm["title1"], theme.styles["textMain"]])}>
