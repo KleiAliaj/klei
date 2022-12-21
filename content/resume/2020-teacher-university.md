@@ -1,12 +1,53 @@
 ---
-company: "IUT Blagnac"
-url: "https://www.iut-blagnac.fr/"
-title: "University Teacher"
+company: "Airoport of Puglia"
+url: "http://www.aeroportidipuglia.it/en"
+title: "Share expenses"
 description: >
-  Teaching Agile methodology to university students (2nd year).
-dateStart: 2020-09-01
-dateEnd: 2020-11-30
+  Web app built to manage flights in the south of Italy regions
+dateStart: 2016-06-01
+dateEnd: 2017-03-01
 hashtags:
-  - university
-  - teacher
+  - JavaScript
+  - React
+  - React Native Web
+  - Flow
+  - Git
+  - Lead
+  - Webpack
+  - image: /resume/4.png
+
+remote: true
 ---
+
+Development of a React web app to manage dynamic resources with a complex
+database.
+
+- Bootstrapping of the project
+- Architecture of the web app codebase using React Native Web.
+- Integration of Flow, a static type checker, to improve code quality of the
+  codebase
+- Integration of Jest with snapshots to ease day-to-day development & automate
+  testing
+- Leading of a team with several developers across the world (France & India)
+- Training of the team, new to React, modern JavaScript, React & React Native
+  Web, Jest
+- Daily code review to raise the team skills (most developers where new to
+  modern JavaScript & React & React Native Web)
+
+---
+
+Développement d'une application web avec React de gestion de resources dynamique
+lié à une base de données complexe.
+
+- Démarrage du projet
+- Architecture de l'application en utilisant React Native Web
+- Intégration de Flow, un outil d'analyse statique pour améliorer fortement la
+  qualité du code
+- Intégration de Jest avec des snapshots pour faciliter le développement au
+  quotidien & automatisé les tests
+- Formation de l'équipe en React, React Native Web, tests automatisés unitaires
+  avec Jest
+- Rôle de développeur Lead à distance d'un équipe de plusieurs développeurs avec
+  différents profils & niveaux (France et Inde).
+- Code review quotidiennes pour monter le niveau de l'équipe (la plupart des
+  membres étant nouveau au JavaScript moderne ainsi que React)
