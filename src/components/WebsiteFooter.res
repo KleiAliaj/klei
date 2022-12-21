@@ -297,8 +297,9 @@ let make = () => {
           </Text>
         </View>
         <TextLink
-          style={array([Font.ios["footnote"], theme.styles["textOnMain"]])}>
-          {"100% Over-engineered"}
+          style={array([Font.ios["footnote"], theme.styles["textOnMain"]])}
+          href="https://github.com/">
+          {"100% Over-engineered "->React.string}
         </TextLink>
       </SpacedView>
     </View>
