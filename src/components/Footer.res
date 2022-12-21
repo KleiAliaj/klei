@@ -68,7 +68,7 @@ let make = () =>
           </TextLink>
         </View>
         <Text style={styles["text"]}> {j`  ·  `->React.string} </Text>
-        <TextLink style={styles["text"]} href="https://github.com/MoOx/moox">
+        <TextLink style={styles["text"]} href="https://github.com/">
           {"100% Over-engineered"->React.string}
         </TextLink>
       </SpacedView>
