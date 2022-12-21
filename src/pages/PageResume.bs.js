@@ -549,7 +549,7 @@ function PageResume(Props) {
                           vertical: /* S */4,
                           children: null
                         }, React.createElement(ReactNative.Text, {
-                              children: "MoOx",
+                              children: "Klei",
                               style: {
                                 color: Consts.Colors.light,
                                 fontSize: 64,
@@ -557,7 +557,7 @@ function PageResume(Props) {
                                 lineHeight: 66
                               }
                             }), React.createElement(ReactNative.Text, {
-                              children: "Maxime Thirouin",
+                              children: "Klei Aliaj",
                               style: {
                                 color: Consts.Colors.light,
                                 fontSize: 26,
