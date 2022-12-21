@@ -40,7 +40,7 @@ let make = (~posts: array<BlogFrontend.t>, ~malformed: array<Malformed.t>) => {
         <Container maxWidth={1600.->Style.dp}>
           <Spacer size=L />
           <Center>
-            <TitlePre> {"COMPANIES THAT TRIED TO HIRE ME"->React.string} </TitlePre>
+            <TitlePre> {"COMPANIES THAT I HELPED AND CO-WORKED"->React.string} </TitlePre>
           </Center>
           <Row.Wrap.Center>
             <SVGCompanyFacebook
