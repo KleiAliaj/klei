@@ -1,0 +1,1 @@
+src\components\JumbotronTalks.cmj : src\Consts.cmj src\Consts.cmi src\components\MeBackground.cmj src\components\MeBackground.cmi assets\SVGs\components\SVGLogo.cmj assets\SVGs\components\SVGLogo.cmi src\components\WindowSizeFilter.cmj src\components\WindowSizeFilter.cmi

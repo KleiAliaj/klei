@@ -1,0 +1,1 @@
+src\pages\PageTalk.cmj : src\components\AppWrapper.cmj src\components\AppWrapper.cmi src\BackendApi.cmj src\BackendApi.cmi src\Consts.cmj src\Consts.cmi src\components\Html.cmj src\components\Html.cmi src\components\MyBodyRenderer.cmj src\components\MyBodyRenderer.cmi src\T.cmj src\T.cmi src\TalksFrontend.cmj src\TalksFrontend.cmi

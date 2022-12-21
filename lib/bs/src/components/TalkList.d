@@ -1,0 +1,1 @@
+src\components\TalkList.cmj : src\components\shareable\Font.cmj src\components\shareable\Font.cmi src\T.cmj src\T.cmi src\components\TalkPreview.cmj src\components\TalkPreview.cmi src\TalksFrontend.cmj src\TalksFrontend.cmi
