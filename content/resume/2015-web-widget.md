@@ -17,6 +17,7 @@ hashtags:
   - ThirdParty
 remote: true
 image: /resume/totem.png
+
 ---
 
 Development of a embeddable widget with React to generate high level of user
