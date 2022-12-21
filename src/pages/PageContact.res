@@ -53,21 +53,21 @@ let make = () => {
                   <ButtonContained.Text textSize=24.>
                     {"Text Me"->React.string}
                     <Text style={style(~fontSize=12., ~lineHeight=12., ~fontWeight=#_300, ())}>
-                      {"\n+33 6 78 13 54 39"->React.string}
+                      {"\n+355692228323"->React.string}
                     </Text>
                   </ButtonContained.Text>
                 </ButtonContained>
               </ViewLink>
             </SpacedView>
             <SpacedView vertical=S horizontal=None>
-              <ViewLink href={"mailto:" ++ (isClient ? "hello@moox.io" : "")}>
+              <ViewLink href={"mailto:" ++ (isClient ? "klei.aliajc313@gmail.com" : "")}>
                 <ButtonContained color=Predefined.Colors.Ios.light.blue style={styles["button"]}>
                   <SVGEmail width={36.->Style.dp} height={36.->Style.dp} fill=Consts.Colors.light />
                   <Spacer />
                   <ButtonContained.Text textSize=24.>
                     {"Email Me"->React.string}
                     <Text style={style(~fontSize=12., ~lineHeight=12., ~fontWeight=#_300, ())}>
-                      {"\nhello @ moox.io"->React.string}
+                      {"\nhello @ klei.aliajc313@gmail.com"->React.string}
                     </Text>
                   </ButtonContained.Text>
                 </ButtonContained>
@@ -81,14 +81,14 @@ let make = () => {
                   <ButtonContained.Text textSize=24.>
                     {"Call Me"->React.string}
                     <Text style={style(~fontSize=12., ~lineHeight=12., ~fontWeight=#_300, ())}>
-                      {"\n+33 6 78 13 54 39"->React.string}
+                      {"\n+355692228323"->React.string}
                     </Text>
                   </ButtonContained.Text>
                 </ButtonContained>
               </ViewLink>
             </SpacedView>
             <SpacedView vertical=S horizontal=None>
-              <ViewLink href="https://twitter.com/MoOx">
+              <ViewLink href="https://twitter.com/klei">
                 <ButtonContained color="rgb(0, 112, 201)" style={styles["button"]}>
                   <SVGSocialTwitter
                     width={36.->Style.dp} height={36.->Style.dp} fill=Consts.Colors.light
@@ -97,14 +97,14 @@ let make = () => {
                   <ButtonContained.Text textSize=24.>
                     {"Message Me"->React.string}
                     <Text style={style(~fontSize=12., ~lineHeight=12., ~fontWeight=#_300, ())}>
-                      {"\n@MoOx on Twitter"->React.string}
+                      {"\n@klei on Twitter"->React.string}
                     </Text>
                   </ButtonContained.Text>
                 </ButtonContained>
               </ViewLink>
             </SpacedView>
             <SpacedView vertical=S horizontal=None>
-              <ViewLink href="https://www.linkedin.com/in/maxthirouin">
+              <ViewLink href="https://www.linkedin.com/in/klei-aliaj-226916107/">
                 <ButtonContained color="rgb(10, 102, 194)" style={styles["button"]}>
                   <SVGSocialLinkedin
                     width={36.->Style.dp} height={36.->Style.dp} fill=Consts.Colors.light
@@ -113,14 +113,14 @@ let make = () => {
                   <ButtonContained.Text textSize=24.>
                     {"Reach Me"->React.string}
                     <Text style={style(~fontSize=12., ~lineHeight=12., ~fontWeight=#_300, ())}>
-                      {"\n@maxthirouin on LinkedIn"->React.string}
+                      {"\n@kleialiaj on LinkedIn"->React.string}
                     </Text>
                   </ButtonContained.Text>
                 </ButtonContained>
               </ViewLink>
             </SpacedView>
             <SpacedView vertical=S horizontal=None>
-              <a href="/MaximeThirouin.vcf" style={ReactDOM.Style.make(~textDecoration="none", ())}>
+              <a href="/.vcf" style={ReactDOM.Style.make(~textDecoration="none", ())}>
                 <ButtonContained color=Predefined.Colors.Ios.light.pink style={styles["button"]}>
                   <SVGContact
                     width={36.->Style.dp} height={36.->Style.dp} fill=Consts.Colors.light
