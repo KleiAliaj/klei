@@ -22,7 +22,7 @@ hashtags:
   - Cocoapods
   - Bitrise
   - Git
-  - Fastlane
+  -  
 image: /resume/totem1.PNG
 remote: true
 links:
