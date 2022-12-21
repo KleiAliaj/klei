@@ -23,7 +23,7 @@ hashtags:
   - Bitrise
   - Git
   -  
-image: /resume/totem1.PNG
+image: /resume/totem.PNG
 remote: true
 links:
   - title: My VOdafone app iOS
