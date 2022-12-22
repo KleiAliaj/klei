@@ -1,5 +1,5 @@
 ---
-company: "AP marketing services"
+company: "AP marketing"
 url: "https://antonioperreca.it/"
 title: "Specific Admin App"
 description: >
