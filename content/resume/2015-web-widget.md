@@ -20,7 +20,7 @@ image: /resume/totem.png
 
 ---
 
-Development of a embeddable widget with React to generate high level of user
+Development of a widget with React to generate high level of user
 interactions.
 
 - Architecture of an SDK to ease widget integration for partners
