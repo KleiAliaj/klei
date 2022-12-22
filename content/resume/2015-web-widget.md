@@ -4,8 +4,8 @@ url: "https://kleialiaj.github.io/Totem/"
 title: "Totem"
 description: >
    Hr platfrom under development
-dateStart: 2015-03-01
-dateEnd: 2015-09-01
+dateStart: 2021-03-01
+dateEnd: 2021-06-01
 hashtags:
   - JavaScript
   - React
