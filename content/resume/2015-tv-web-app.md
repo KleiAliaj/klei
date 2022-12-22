@@ -1,6 +1,6 @@
 ---
-company: "Dovevivo"
-url: "https://www.dovevivo.com/en/"
+company: "Neworkom"
+url: "https://www.neworkom.com/"
 title: "Web app"
 description: >
  Discover different co-living solutions
@@ -12,8 +12,11 @@ hashtags:
   - React
   - Redux
   - BestPractices
+  - Php
+  - Laravel
+  - MongoDb
 remote: true
-image: /resume/v.png
+image: /resume/nwk.png
 ---
 
 -Choose to live in a shared apartment in your favourite area. 
