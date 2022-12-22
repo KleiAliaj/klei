@@ -1,7 +1,7 @@
 ---
 company: "AP marketing"
 url: "https://antonioperreca.it/"
-title: "Specific Admin App"
+title: "Marketing subscirption service"
 description: >
   Web app built to offer consulations for marketing services
 dateStart: 2016-06-01
