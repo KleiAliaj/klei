@@ -3,7 +3,7 @@ company: "Neworkom"
 url: "https://www.neworkom.com/"
 title: "Web app"
 description: >
- Discover different co-living solutions
+Neworkom™ was founded in Malta by a group of entrepreneurs with twenty years of experience in finance, networking and community bases
 dateStart: 2015-10-01
 dateEnd: 2015-11-01
 hashtags:
