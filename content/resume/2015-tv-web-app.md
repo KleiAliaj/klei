@@ -1,9 +1,9 @@
 ---
-company: "Molotov.tv"
-url: "https://www.molotov.tv"
+company: "Ai-articulate"
+url: "https://ai-rticulate.vercel.app/"
 title: "TV Web app"
 description: >
-  Audit for Molotov.tv fresh React codebase for desktop website
+Generate a business model canvas with just one click. Simply input what some context about your business, and GPT-3 will spit out a full BMC ready for your next pitch!
 dateStart: 2015-10-01
 dateEnd: 2015-11-01
 hashtags:
@@ -13,7 +13,8 @@ hashtags:
   - Redux
   - BestPractices
 remote: true
-image: /resume/molotov.tv.jpg
+image: /resume/ai.png
+
 ---
 
 - Audit on a fresh React codebase
