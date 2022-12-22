@@ -15,7 +15,7 @@ hashtags:
   - Server Side Rendering
   - Static Site
   - Webpack
-image: /resume/4.png
+image: /resume/4.PNG
 remote: true
 links:
   - title: "Airopot"
