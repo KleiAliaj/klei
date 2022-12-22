@@ -16,7 +16,7 @@ hashtags:
   - Server Side Rendering
   - Static Site
   - Webpack
-image: /resume/damebio.jpg
+image: /resume/Capture.PNG
 remote: true
 links:
   - title: "Ipervox"
