@@ -17,7 +17,6 @@ hashtags:
   - Fastlane
 image: /resume/Capture.PNG
 remote: true
-remote: true
 links:
   - title: Loewe app iOS
     url: https://apps.apple.com/fr/app/loewe-app/id1191442362
