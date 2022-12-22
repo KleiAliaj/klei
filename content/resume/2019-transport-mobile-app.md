@@ -1,7 +1,7 @@
 ---
-company: "Kisio Digital"
+company: "DoveVivo"
 url: "http://www.kisiodigital.com"
-title: "Transport Mobile App"
+title: "Your coliving app"
 description: >
   iOS / Android app built for cities and transport networks
 dateStart: 2019-06-06
