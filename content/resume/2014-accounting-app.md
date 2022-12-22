@@ -1,10 +1,10 @@
 ---
 company: Vodafone
-url: "https://play.google.com/store/apps/details?id=al.myvodafone.android&hl=en&gl=US"
-title: "My Vodafone App"
+url: "https://www.viareport.com"
+title: "Vodafone"
 role: "Front-end Developer"
 description: >
-  My Vodafone App
+  Modernize a legacy bulky UI into a accessible one with modern techs
 dateStart: 2014-07-01
 dateEnd: 2015-03-01
 hashtags:
@@ -13,13 +13,10 @@ hashtags:
   - Redux
   - Git
   - Legacy
-image: /resume/vod.png
 remote: true
 links:
-  - title: My Vodafone app IOS
-    url: https://apps.apple.com/al/app/my-vodafone-albania/id562221028
-  - title: My Vodafone app Android
-    url: https://play.google.com/store/apps/details?id=al.myvodafone.android&hl=en&gl=US
+  - title: Statutory Consolidation app
+    url: https://www.viareport.com/en/statutory_consolidation/
 ---
 
 Development of a new front-end architecture for a complex UI to ease generation
