@@ -1,9 +1,9 @@
 ---
-company: "One2Team"
-url: "https://one2team.com"
-title: "Workflow Management Mobile App"
+company: "Communications of credit"
+url: "https://comunicatidelcredito.it/"
+title: "Credit information and Newsletter"
 description: >
-  iOS / Android app to manage customizable lists of configurable resources
+  Credit information and Newsletter
 dateStart: 2015-11-01
 dateEnd: 2016-03-01
 hashtags:
@@ -23,6 +23,7 @@ hashtags:
   - Camera
   - Gestures
   - Webpack
+  - image: /resume/Capture1-3_1_1400x780.PNG
 remote: true
 ---
 
