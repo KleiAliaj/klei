@@ -1,17 +1,15 @@
 ---
 title: "Ipervox"
 description: >
- Ipervox
+ Web app platform for creating  voice apps, blogs and more with Alexa Skills
 dateStart: 2018-08-01
 dateEnd: 2019-02-01
 hashtags:
-  - ReScript
+  - Laravel
   - GraphQL
-  - Apollo
+  - Php
   - Reason React
-  - React
-  - React Native
-  - React Native Web
+  - Vue.js
   - Mobile
   - Web
   - Wordpress
@@ -21,8 +19,8 @@ hashtags:
 image: /resume/damebio.jpg
 remote: true
 links:
-  - title: "D'Âme Bio"
-    url: https://dame.bio/
+  - title: "Ipervox"
+    url: https://ipervox.com/
 ---
 
 R&D on ReScript, Ocaml, GraphQL / Apollo, React Native + React Native Web and
