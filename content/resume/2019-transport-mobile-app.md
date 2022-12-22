@@ -1,9 +1,9 @@
 ---
 company: "DoveVivo"
-url: "http://www.kisiodigital.com"
-title: "Your coliving app"
+url: "https://www.dovevivo.com/en/"
+title: "Your accomodation app"
 description: >
-  iOS / Android app built for cities and transport networks
+  Experience the Best in Co-Living with Dovevivo - Your Go-To Co-Living Service App
 dateStart: 2019-06-06
 dateEnd: 2021-12-31
 hashtags:
@@ -40,7 +40,7 @@ links:
     url: https://apps.apple.com/fr/app/vermeille/id556842045
   - title: Vermeille Android
     url: https://play.google.com/store/apps/details?id=com.micropole.android.canaltp.sts
-image: /resume/adm.jpg
+image: /resume/v.png
 remote: true
 ---
 
