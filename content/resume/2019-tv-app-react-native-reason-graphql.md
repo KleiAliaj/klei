@@ -1,22 +1,29 @@
 ---
-company: "Ipervox"
-title: "Ipervox Voice Platform"
+title: "Research & Development with ReScript & GraphQL"
+description: >
+  Experiments and side-projects made with Reason, GraphQL with Apollo &
+  React(Native)
 dateStart: 2018-08-01
 dateEnd: 2019-02-01
 hashtags:
-  - Laravel
-  - JavaScript
-  - Vue.js
+  - ReScript
   - GraphQL
-  - Php
-  - Auth0
-  - Git
-  - Fastlane
-image: /resume/Capture.PNG
+  - Apollo
+  - Reason React
+  - React
+  - React Native
+  - React Native Web
+  - Mobile
+  - Web
+  - Wordpress
+  - Server Side Rendering
+  - Static Site
+  - Webpack
+image: /resume/damebio.jpg
 remote: true
 links:
-  - title: "Airoport"
-    url: http://www.aeroportidipuglia.it/en
+  - title: "D'Âme Bio"
+    url: https://dame.bio/
 ---
 
 R&D on ReScript, Ocaml, GraphQL / Apollo, React Native + React Native Web and
