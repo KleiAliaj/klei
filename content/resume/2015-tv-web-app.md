@@ -10,6 +10,7 @@ hashtags:
   - Audit
   - JavaScript
   - React
+  - GraphQl
   - Redux
   - BestPractices
 remote: true
