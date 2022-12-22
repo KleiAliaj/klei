@@ -1,6 +1,6 @@
 ---
-company: ViaReport
-url: "https://www.viareport.com"
+company: Vodafone
+url: "https://play.google.com/store/apps/details?id=al.myvodafone.android&hl=en&gl=US"
 title: "My Vodafone App"
 role: "Front-end Developer"
 description: >
