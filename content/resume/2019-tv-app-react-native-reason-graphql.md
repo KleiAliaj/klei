@@ -11,18 +11,9 @@ hashtags:
   - JavaScript
   - React
   - React Native
-  - Reason React
-  - Reason React Native
-  - GraphQL
-  - Apollo
   - Mobile
-  - MQTT
   - iOS
-  - Auth0
-  - Cocoapods
   - Bitrise
-  - Git
-  - Fastlane
 image: /resume/vod.png
 remote: true
 links:
