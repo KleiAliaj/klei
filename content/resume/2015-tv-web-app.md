@@ -1,5 +1,5 @@
 ---
-company: "Ai-articulate"
+company: "Aiarticulate"
 url: "https://ai-rticulate.vercel.app/"
 title: "Web app"
 description: >
