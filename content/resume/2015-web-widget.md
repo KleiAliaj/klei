@@ -1,9 +1,9 @@
 ---
-company: "BeOp"
-url: "https://beop.io"
-title: "Web Widget"
+company: "Airticulate"
+url: "https://ai-rticulate.vercel.app/"
+title: "Airticulate"
 description: >
-  Third-party widget for brands and publishers
+   Simply input what some context about your business, and GPT-3 will spit out a full BMC ready for your next pitch!
 dateStart: 2015-03-01
 dateEnd: 2015-09-01
 hashtags:
@@ -17,6 +17,7 @@ hashtags:
   - ThirdParty
 remote: true
 image: /resume/beop.jpg
+
 ---
 
 Development of a embeddable widget with React to generate high level of user
