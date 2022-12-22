@@ -1,12 +1,11 @@
 ---
-company: "IUT Blagnac"
-url: "https://www.iut-blagnac.fr/"
-title: "University Teacher"
+company: "SeniorDev"
+title: "Senior Dev"
 description: >
-  Teaching Agile methodology to university students (2nd year).
+  C-Programming VS code Extention for easing software development
 dateStart: 2020-09-01
 dateEnd: 2020-11-30
 hashtags:
-  - university
-  - teacher
+  - python
+  - flask
 ---
