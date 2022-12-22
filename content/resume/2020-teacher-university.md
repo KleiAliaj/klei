@@ -1,12 +1,15 @@
 ---
-company: "IUT Blagnac"
-url: "https://www.iut-blagnac.fr/"
-title: "University Teacher"
+company: "SeniorDev"
+title: "Web app"
 description: >
-  Teaching Agile methodology to university students (2nd year).
-dateStart: 2020-09-01
-dateEnd: 2020-11-30
+Neworkom was founded in Malta by a group of entrepreneurs with twenty years of experience in finance, networking and community construction.
+dateStart: 2019-02-25
+dateEnd: 2019-05-10
 hashtags:
-  - university
-  - teacher
----
+  - Audit
+  - JavaScript
+  - React
+  - Redux
+  - BestPractices
+remote: true
+image: /resume/dev.png
