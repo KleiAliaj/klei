@@ -1,9 +1,9 @@
 ---
-company: "Airticulate"
-url: "https://ai-rticulate.vercel.app/"
+company: "Totem"
+url: "https://kleialiaj.github.io/Totem/"
 title: "Airticulate"
 description: >
-   Simply input what some context about your business, and GPT-3 will spit out a full BMC ready for your next pitch!
+   Hr platfrom under development
 dateStart: 2015-03-01
 dateEnd: 2015-09-01
 hashtags:
@@ -16,7 +16,7 @@ hashtags:
   - Webpack
   - ThirdParty
 remote: true
-image: /resume/beop.jpg
+image: /resume/totem.png
 
 ---
 
