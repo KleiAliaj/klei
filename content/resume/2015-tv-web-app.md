@@ -2,7 +2,7 @@
 company: "Ai-articulate"
 url: "https://ai-rticulate.vercel.app/"
 title: "TV Web app"
-description:
+description:<
 Generate a business model canvas with just one click. Simply input what some context about your business, and GPT-3 will spit out a full BMC ready for your next pitch!
 dateStart: 2015-10-01
 dateEnd: 2015-11-01
