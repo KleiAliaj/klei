@@ -25,6 +25,7 @@ hashtags:
   - Webpack
   - image: /resume/Capture1-3_1_1400x780.PNG
 remote: true
+
 ---
 
 Development of a workflow management React/Cordova mobile app to manage
