@@ -40,7 +40,7 @@ links:
     url: https://apps.apple.com/fr/app/vermeille/id556842045
   - title: Vermeille Android
     url: https://play.google.com/store/apps/details?id=com.micropole.android.canaltp.sts
-image: /resume/v.png
+image: /resume/v.PNG
 remote: true
 ---
 
