@@ -1,8 +1,7 @@
 ---
-title: "Research & Development with ReScript & GraphQL"
+title: "Ipervox"
 description: >
-  Experiments and side-projects made with Reason, GraphQL with Apollo &
-  React(Native)
+ Ipervox
 dateStart: 2018-08-01
 dateEnd: 2019-02-01
 hashtags:
