@@ -1,5 +1,5 @@
 ---
-company: "Ipervoc"
+company: "Ipervox"
 title: "Ipervox Voice Platform"
 url: "https://ipervox.com/"
 description: >
@@ -17,27 +17,49 @@ hashtags:
   - Fastlane
 image: /resume/Capture.PNG
 remote: true
+remote: true
 links:
-  - title: My VOdafone app iOS
-    url: https://apps.apple.com/al/app/my-vodafone-albania/id562221028
-  - title: My Vodafone app Android
-    url: https://play.google.com/store/apps/details?id=al.myvodafone.android&hl=sq&gl=US
----
-Whether you need to pay a bill, check your usage, or get help with a problem, the app has everything you need
-
--  With the app, you can easily manage your account, check your usage, pay bills, and get help and support. 
-- You can also use the app to access exclusive discounts and offers, as well as keep track of your Vodafone rewards. 
-- The app is available on both iOS and Android and is constantly updated with new features and improvements to ensure that Vodafone customers have the best possible experience. 
-- Whether you're at home or on the go, My vodafone app makes it easy to stay connected and in control of your mobile service.
-
+  - title: Loewe app iOS
+    url: https://apps.apple.com/fr/app/loewe-app/id1191442362
+  - title: Loewe app Android
+    url: https://play.google.com/store/apps/details?id=de.loewe.loeweapp
 ---
 
-In addition to the features mentioned above, My Vodafone app also offers a range of other useful tools and services. With the app, you can:
+Short mission to boost development of a TV/media remote app made with React
+Native (with ReScript) & GraphQL (with Apollo).
 
-- View and download your bills
-- Check your remaining data, minutes, and texts
-- Change your plans and add-ons
-- Track your usage in real-time
-- Keep track of your roaming data and usage abroad
-- Get help and support from Vodafone's expert team
-- My Vodafone app is designed to make managing your mobile service as easy as possible. Whether you need to pay a bill, check your usage, or get help with a problem, the app has everything you need. With its user-friendly interface and wide range of features,My Vodafone app is a must-have for customers.
+- Re-architecture of the mobile app codebase based React Native with ReScript to
+  simplify it in order to increase ease for contributors.
+- Development of various low level React components to ease day-to-day
+  development to follow the rapidely evolving mockups
+- Time spend to polish UI details, including development of tons of animations
+  into the React Native app to make if feel really native & not just another
+  weird half web app / half native.
+- Transformation of Sketch designs into React components with management of
+  issues not anticipated because of the static aspect of mockups.
+- Open source contributions to bs-react-native, React Native bindings for
+  ReScript
+- Migration of part of the iOS .xcodeproj mess (hand linked libraries, some
+  copy/pasted) into a Cocoapods Podfile to ease React Native updates
+
+---
+
+Mission courte pour booster le dévelopment d'un appli type télécommande TV /
+périphériques connectés, faite avec React Native (avec ReScript), ainsi que
+GraphQL (avec Apollo).
+
+- Re-architecture de la codebase de l'app mobile faite avec React Native et
+  ReScript dans le but de simplifier les contributions.
+- Dévelopment de plusieurs composants React bas niveau pour simplifier le
+  dévelopment au quotidien development pour suivre l'évolution rapide des
+  mockups
+- Temps passé à affiner les détails de l'interface, avec intégration d'un
+  multitudes d'animations afin que l'application donne vraiment un feeling
+  natif, et non mi-web / mi-mobile
+- Transformation des designs Sketch en composants React avec gestion des
+  problématiques non anticipé par le rendu statique des maquettes
+- Contribution open source au projet bs-react-native permettant d'utiliser
+  React-native avec ReScript
+- Migration iOS d'une partie du .xcodeproj (librairies lié à la main, dont
+  certaines copié/collé) vers un Podfile via Cocoapods pour faciliter les mises
+  à jour de React Native
