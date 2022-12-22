@@ -1,7 +1,7 @@
 ---
 company: "Totem"
 url: "https://kleialiaj.github.io/Totem/"
-title: "Airticulate"
+title: "Totem"
 description: >
    Hr platfrom under development
 dateStart: 2015-03-01
