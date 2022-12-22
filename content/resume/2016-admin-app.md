@@ -1,19 +1,17 @@
 ---
-company: "Mphasis"
-url: "https://www.mphasis.com"
+company: "AP marketing services"
+url: "https://antonioperreca.it/"
 title: "Specific Admin App"
 description: >
-  Web app built to manage dynamic resources with a complex database
+  Web app built to offer consulations for marketing services
 dateStart: 2016-06-01
 dateEnd: 2017-03-01
 hashtags:
   - JavaScript
-  - React
-  - React Native Web
-  - Flow
+  - PHP
+  - Wordpress
+  - Css
   - Git
-  - Lead
-  - Webpack
 remote: true
 ---
 
